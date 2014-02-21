@@ -14,12 +14,14 @@ setup(
     version='2.0.dev0',
 
     install_requires=[
+        'feedparser==4.1',
+        'html2text<=3.0',
         'setuptools',
     ],
 
     entry_points={
         'console_scripts': [
-            'rsspull = ws.rsspull.rsspull:main'
+            'rsspull = ws.rsspull.main:main'
         ],
     },
 

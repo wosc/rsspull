@@ -1,0 +1,1297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'
+      xmlns:thr='http://purl.org/syndication/thread/1.0'
+      xml:base='http://www.tbray.org/ongoing/ongoing.atom'
+      xml:lang='en-us'>
+ <title>ongoing</title>
+ <id>http://www.tbray.org/ongoing/</id>
+ <link href='./' />
+ <link rel='self' href='' />
+ <link rel='replies'       thr:count='101'       href='/home/tbray.org/www/html/ongoing/comments.atom' />
+ <logo>rsslogo.jpg</logo>
+ <icon>/favicon.ico</icon>
+ <updated>2007-02-25T18:22:02-08:00</updated>
+ <author><name>Tim Bray</name></author>
+ <subtitle>ongoing fragmented essay by Tim Bray</subtitle>
+ <rights>All content written by Tim Bray and photos by Tim Bray Copyright Tim Bray, some rights reserved, see /ongoing/misc/Copyright</rights>
+ <generator uri='/misc/Colophon'>Generated from XML source code using Perl, Expat, Emacs, Mysql, Ruby, Java, and ImageMagick.  Industrial-strength technology, baby.</generator>
+
+<entry xml:base='When/200x/2007/02/23/'>
+ <title>Moose Camp</title>
+ <link href='Moose-Camp' />
+ <link rel='replies'        thr:count='2'        type='application/xhtml+xml'        href='Moose-Camp#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/23/Moose-Camp</id>
+ <published>2007-02-23T12:00:00-08:00</published>
+ <updated>2007-02-25T12:00:05-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World/Events' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Events' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World/People' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='People' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>This is the one-day Unconference that happens the day before <a href='http://2007.northernvoice.ca/'>Northern Voice</a>. Unfortunately I missed Northern Voice, due to a combination of a child&#x2019;s soccer game and a vicious one-day ailment of some sort that knocked me completely on my butt for 24 hours.  Anyhow, <a href='http://wiki.northernvoice.ca/Moosecamp2007'>Moose Camp</a> was 100% excellent.  It irritates me that I went through the first forty-something years of my life without having had the Unconference experience.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>This is the one-day Unconference that happens the day before
+<a href="http://2007.northernvoice.ca/">Northern Voice</a>. Unfortunately I
+missed Northern Voice, due to a combination of a childâs soccer game and a
+vicious one-day ailment of some sort that knocked me completely on my butt for
+24 hours.  Anyhow,
+<a href="http://wiki.northernvoice.ca/Moosecamp2007">Moose Camp</a> was 100%
+excellent.  It irritates me that I went through the first forty-something
+years of my life without having had the Unconference experience.</p>
+<p>All these pictures are (I think) from the
+<a href="http://wiki.northernvoice.ca/New%20Rules%20for%20the%20New%20Communities">New
+Rules for New Communities</a> session.</p>
+<img src="IMGP4663.png" alt="Attendees at Moose Camp, Alex Waterhouse-Hayward
+at centre" />
+<div class="caption"><p>In the centre above, looking gloomy,
+<a href="http://www.alexwaterhousehayward.com/">Alex Waterhouse-Hayward</a>.
+In the rest of the pictures, I really donât know any of the people.</p></div>
+<img src="IMGP4668.png" alt="Attendees at Moose Camp" />
+<img src="IMGP4671.png" alt="Attendees at Moose Camp" />
+<img src="IMGP4674.png" alt="Attendees at Moose Camp" />
+<img src="IMGP4676.png" alt="Attendees at Moose Camp" />
+<div class="caption"><p>The light was OK but not great.  For photo-geeks: I
+went all manual, cranked the Pentax down to <i>f</i>/2.0 at 1/60, and had to
+do a bit of brightening and sharpening.</p></div>
+<p>That session was good fun, basically just an open-ended discussion about
+what life in online communities is like, and how it could be better.  Like
+every other Moose Camp session I went to, it could easily have been two or
+three times as long.</p>
+<p>There was this guy in the back row and right in the belly of this long and
+fairly earnest discussion of the community experience, he put up his hand and said
+âBy the way, I can get you really cheap Viagra and Cialis.â  It was the best
+kind of humor; quite a few of us had a moment of âCan he
+mean it?!â shock before the room exploded in laughter.</p>
+<!-- 0.3 p, 1l, 298 
+Heavy sharpen on import, another (68%) before saving
+http://www.podtech.net/scobleshow/technology/1239/photowalking-with-thomas-hawk-the-photoshop-lessons-part-ii
+-->
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/25/'>
+ <title>Advertising</title>
+ <link href='Advertising' />
+ <link rel='replies'        thr:count='3'        type='application/xhtml+xml'        href='Advertising#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/25/Advertising</id>
+ <published>2007-02-25T12:00:00-08:00</published>
+ <updated>2007-02-25T05:38:14-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business/Marketing' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Marketing' />
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>I spend a mainstream amount of time reading magazines and watching TV, and
+a more-than-mainstream amount reading the Net.  Of all the
+teeming billions of dollars poured into advertising on all these media, essentially none
+of it speaks to me.  This was brought home yesterday when I was impressed by two
+ads in one day.  They were running this TV ad for Subway (the sandwich shop)
+that was just incredibly simple and linear: âUnlike
+McDonalds and the others, we make our bread fresh every day in the storeâ;
+with a picture of the oven.  I
+havenât been to a Subway in decades, but the next time Iâve got hungry cranky
+kids to wrangle, thatâs maybe a good argument for giving them a try.
+The same evening, I was looking through my newsfeeds, and in 
+<cite>The Economistâs</cite> excellent
+<a href="http://www.economist.com/debate/freeexchange/">Free Exchange</a> blog
+(yeah, dust off your knee-jerk right-silliness filter, but still) feed, one of the
+entries was an ad; a simple one-paragraph squib saying there was a special
+offer for new subscribers.  I already subscribe, but you couldnât
+imagine a better way to pitch a subscription.  Two in one day?  Thatâs the
+first time thatâs happened in years.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/24/'>
+ <title>OpenID</title>
+ <link href='OpenID' />
+ <link rel='replies'        thr:count='18'        type='application/xhtml+xml'        href='OpenID#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/24/OpenID</id>
+ <published>2007-02-24T12:00:00-08:00</published>
+ <updated>2007-02-24T21:50:07-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Identity' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Identity' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>The buzz around OpenID is becoming impossible to ignore.  If you don&#x2019;t know why, check out  <a href='http://simonwillison.net/2006/openid-screencast/'>How To Use OpenID</a>, a screencast by Simon Willison. As it&#x2019;s used now (unless I&#x2019;m missing something) OpenID seems pretty useless, but with only a little work (unless I&#x2019;m missing something) it could be very useful indeed.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>The buzz around OpenID is becoming impossible to ignore.  If you donât know
+why, check out 
+<a href="http://simonwillison.net/2006/openid-screencast/">How To Use
+OpenID</a>, a
+screencast by Simon Willison.
+As itâs used now (unless Iâm missing something) OpenID seems pretty
+useless, but with only a little work (unless Iâm missing something) it
+could be very useful indeed.</p>
+<h2 id='p-2'>Problem: TLS</h2>
+<p>The first problem is that OpenID doesnât require the use of
+<a href="http://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a>
+(whatâs behind URIs that begin with <code>https:</code>).  Doing anything
+remotely connected with authentication over an unencrypted link where you
+canât be sure who youâre talking to seems all wrong to me.
+I see that this subject is under discussion (<a href="http://jyte.com/cl/openid-providers-should-use-tls-whenever-possible">here</a>
+and
+<a href="http://lists.danga.com/pipermail/yadis/2005-July/001273.html">here</a>)
+in the community.</p>
+<p>The fact that apparently-sane people think it might
+sometimes be OK to not use TLS makes me think thereâs something obvious Iâm
+missing.  In Simonâs screencast, the pages that you type your OpenID into are
+unsecured; hmmm.</p>
+<h2 id='p-3'>Problem: Whatâs It Mean?</h2>
+<p>Another problem with OpenID is that, well, having one doesnât mean very
+much; just that you can verify that some server somewhere says it believes that the
+person operating the browser owns that ID.</p>
+<p>Unless Iâm missing something, as a thought experiment I could set up a
+bogus OpenID server at <code>http://www.tbray.org/silly-id/</code>, and
+arrange that when queried about any OpenID whatsoever beginning with that URI,
+it instantly provided a positive response.  For example,
+<code>http://www.tbray.org/silly-id/BillGates</code> or
+<code>http://www.tbray.org/sill-id/PopeBenedictXVI</code>.  None of that nasty
+time-consuming authentication stuff; sure would speed up logging into
+OpenID-supporting sites.</p>
+<h2 id='p-4'>Problem: Phishing</h2>
+<p>This is going to be a problem, but I donât think itâs fair to hang it on
+OpenID, because itâs going to be equally a problem with <em>any</em>
+browser-based authentication.  Since browser-based authentication is What The
+People Want, weâre just going to have to fight through this with a combination of
+browser engineering and (more important) educating the general public.</p>
+<h2 id='p-1'>What Could I Use It For Today?</h2>
+<p>Hereâs what I think Iâd be willing to do: in the commenting system here at
+<span class='o'>ongoing</span>, Iâd be inclined, if I had manually approved a
+comment with someone whoâd authenticated via OpenID, to subsequently accept
+further comments from that OpenID, unmoderated.</p>
+<p>I canât think of anything else.</p>
+<h2 id='p-5'>Solution: TLS</h2>
+<p>Just Do It.  Create a culture where traffic is simply expected to be
+encrypted and secure for each step in the authentication chain.  If thereâs
+anything in the protocol that makes this hard, fix it.  Yes, anyone
+offering authentication services will have to own and manage a cert.  That is
+the entry-level price for me taking you seriously.</p>
+<h2 id='p-6'>Solution: Meaning Something</h2>
+<p>I havenât actually heard anyone argue that all OpenIDs should be considered
+equal to all others, which is good, because that would be a profoundly silly
+idea.</p>
+<p>For some given application, I might be willing to support LiveJournal
+OpenIDs but not those from MyOpenID; or vice versa.  There might be an
+opportunity for some sort of independent-security-audit business, rating
+quality of OpenID providers.  Bruce Schneier, where are you?</p>
+<p>Once again, maybe Iâm missing something, but it seems obvious that if
+OpenID is ever going to be much use for real work in applications that
+matters, there are going to be whitelists of ID Providers.  Does anyone see
+this as a problem?  If not, all the libraries out there Ruby and Python and
+PHP and so on need to have the provider-whitelist feature built in.</p>
+<h2 id='p-7'>The Real Problem</h2>
+<p>Of course, out there in the enterprise space where most of Sunâs customers
+live, they think about identity problems at an entirely different level.
+Single-sign-on seems like a little and not terribly interesting piece of the
+problem.  They lose sleep at night over âAttribute Exchangeâ; once you have an
+identity, who is allowed to hold what pieces of information about you, and
+what are the right protocols by which they may be requested, authorized, and
+delivered?  The technology is tough, but the policy issues are
+mind-boggling.</p>  
+<p>So at the moment I suspect that OpenID isnât that interesting to those
+people.   But Web-heads like me care about Plain Old Single Sign-on, and we
+like identifying ourselves by URI.  So OpenID might scratch a pretty big
+itch.</p>
+<p>Unless Iâm missing something.  The reason I keep saying that is that I
+really am an Identity newbie.  Iâm sure my commenters will be diligent in
+pointing out where Iâve gone off the rails.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/22/'>
+ <title>More Economist Trouble</title>
+ <link href='Economist' />
+ <link rel='replies'        thr:count='23'        type='application/xhtml+xml'        href='Economist#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/22/Economist</id>
+ <published>2007-02-22T12:00:00-08:00</published>
+ <updated>2007-02-22T00:54:38-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World/Journalism' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Journalism' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business/Marketing' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Marketing' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>You know, if I didn&#x2019;t care so much about  <a href='http://www.economist.com'>The Economist</a>, I wouldn&#x2019;t be <a href='/ongoing/When/200x/2006/08/13/Economist-QA'>giving it grief</a> here.  If the word &#x201c;journalism&#x201d; means anything, it should mean <em>quality</em>; I expect that my (expensive) subscription buys me a magazine that I often expect to disagree with but which is thoughtful, well-researched, well-written, and well-edited.  I don&#x2019;t <em>want</em> to abandon journalism, but these guys are dropping their end of the bargain.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>You know, if I didnât care so much about 
+<a href="http://www.economist.com">The Economist</a>, I wouldnât be
+<a href="/ongoing/When/200x/2006/08/13/Economist-QA">giving it grief</a>
+here.  If the word âjournalismâ means anything, it should mean
+<em>quality</em>; I expect that my (expensive) subscription buys me a magazine
+that I often expect to disagree with but which is thoughtful, well-researched,
+well-written, and well-edited.  I donât <em>want</em> to abandon journalism,
+but these guys are dropping their end of the bargain.</p>
+<p>A recent
+<a href="http://www.economist.com/surveys/displayStory.cfm?story_id=8513949">Survey on Executive Pay</a> (thatâs a subscriber-only link), 
+dives at length, and with details, into the perceived abuse of shareholders by
+executives, points out the keenest abuses and (this being <cite>The
+Economist</cite>) offers some arguments as to why
+this might not be as bad as it looks.</p>
+<p>Some of them are sort of coherent, but then you get this: âThe role of pay
+is not to get executives to work harder (most are workaholics already, toiling
+towards an appointment with the heart surgeon), but to recruit good managers
+and get them to take difficult decisions. Shutting a subsidiary, sacrificing a
+pet project or forgoing a tempting acquisition is not much fun. Without the
+spur of high pay, managers tend to avoid such things.â  Uh, evidence, please?  Even
+<em>anecdotal</em> evidence?  This is kind of the center of the whole
+argument, and thereâs no there there.</p>
+<p>Next, for your amusement, is the following advertisement taken from the
+current issueâs right-up-front âExecutive Focusâ section, which is mostly
+recruiting for high-level jobs (it shares a page with ads from the UN and Save the
+Children).</p>
+<img src="e-ms.png" alt="Microsoft ad from the Economist" />
+<p>To start with, itâs in the wrong place in the magazine.  
+And this
+Microsoft âPeople Readyâ campaign is pathetically awful, into brain-damage
+territory. 
+Ah, but editorial and advertising are different parts of the shop, right?
+That might be true, except for
+the ad clearly suggests that <cite>The Economist</cite> has
+bought into this âpeople-readyâ vapidity and is writing articles about it.
+Not so, fortunately; if you follow the link, the page you end up
+at is regurgitated <cite>Economist</cite> articles from the last few years, not
+particularly interesting, in a dense frame of Microsoft ads.
+And finally, they canât spell âitsâ.</p>
+<p>Really, really, offensive.</p>
+<p>Dear <cite>Economist</cite>:  I donât buy your beautifully-typeset dead trees
+and steal whatever time it takes to read most of each issue, and put up with
+your knee-jerk right-wing thought filters, to be presented with this kind of crap.
+If I want unsupported assertions, lame-ass Microsoft marketing, and lousy
+spelling, I have the whole Internet to choose from.  You need to be better.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/22/'>
+ <title>No Cucumbers, Please</title>
+ <link href='Cukes' />
+ <link rel='replies'        thr:count='5'        type='application/xhtml+xml'        href='Cukes#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/22/Cukes</id>
+ <published>2007-02-22T12:00:00-08:00</published>
+ <updated>2007-02-21T23:18:05-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World/Food and Drink' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Food and Drink' />
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Is it just me, or is cucumber tempura a completely lame food?  Your typical
+assorted-tempura for lunch will have prawns (delicious), yams (mm, the
+contrast between the crunchy outside and the firm inside), maybe a green
+pepper (not that exciting, but OK), and then the cukes, which are limp, damp,
+and flavorless under the batter.  Why bother?</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/21/'>
+ <title>Comment Updates</title>
+ <link href='Comments' />
+ <link rel='replies'        thr:count='33'        type='application/xhtml+xml'        href='Comments#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/21/Comments</id>
+ <published>2007-02-21T12:00:00-08:00</published>
+ <updated>2007-02-21T20:18:40-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Publishing' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Publishing' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>When I first threw the switch and opened the <span class="o">ongoing</span> space to contributors, my Atom feed included comment counts. Thus, every time someone commented, subscribers saw the article again in their feed-readers.  This was unpopular (check out the discussion  <a href='/ongoing/When/200x/2006/10/06/On-Comments'>here</a> and <a href='/ongoing/When/200x/2006/10/08/On-Comments'>here</a>) so I removed them.  But now I&#x2019;m unhappy with that decision.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>When I first threw the switch and opened the <span class='o'>ongoing</span>
+space to contributors, my Atom feed included comment counts.
+Thus, every time someone commented, subscribers saw the
+article again in their feed-readers.  This was unpopular (check out the discussion 
+<a href="/ongoing/When/200x/2006/10/06/On-Comments">here</a> and
+<a href="/ongoing/When/200x/2006/10/08/On-Comments">here</a>) so I removed them. 
+But now Iâm unhappy with that decision.</p>
+<p>The trouble is, I know that very few people subscribe to my
+<a href="http://www.tbray.org/ongoing/comments.atom">comments feed</a>, and I
+also know that for quite a few of the fragments here, if you cared enough
+about the subject to read the original, you really <em>really</em> want to go
+back and read the comments too, because individually or in sum, they outweigh my
+contribution.</p>
+<p>For example, if you care about trends in high-end pocket cameras, the
+comments on
+<a href="/ongoing/When/200x/2007/02/19/Camera-Blues">Camera Blues</a> are a
+treasure trove.  And if you care about the future of XML, the discussion on
+<a href="/ongoing/When/200x/2007/01/30/XML-2">XML 2.0?</a> is essential.</p>
+<p>Itâs also troubling that I advertise my Atom feed as âfull-contentâ but
+itâs really not, because it omits theâessential, in my opinionâcontributions
+from others.</p>
+<p>Last time the discussion came up, people felt that I ought to perform an
+editorial function; update the article when I thought there were particularly
+insightful comments that were especially noteworthy.  Nope, doesnât scale.
+First of all, the writing I do here consumes pretty well all the available
+cycles and second, Iâd end up doing it for almost every piece.</p>
+<p>So, as a compromise between what I want and what my audience wants, I think
+Iâm going to start flagging the comments in the feed; but only once every
+other day, and Iâll skip the first day.
+Since the commenting, even when itâs voluminous, is usually over with quick,
+on average youâll only see each article twice in your feed-reader.</p>
+<p>So, what should I put in the feed?  I see three options:</p>
+<ol>
+<li><p>Just the number of comments.</p></li>
+<li><p>The full text of all the comments; then the feed would <em>really</em>
+be âfull-contentâ.</p></li>
+<li><p>Update the comment form to accept an optional âsummaryâ field, and
+include that in the feed.</p></li>
+</ol>
+<p>Simpler is better, so I tend to lean to #2.  What do you think?</p>
+<p><i>[Update:]</i> I think that the first comment below points at the right
+answer, so I just added another comment outlining what I think Iâll do.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/20/'>
+ <title>Neptune</title>
+ <link href='Neptune' />
+ <link rel='replies'        thr:count='1'        type='application/xhtml+xml'        href='Neptune#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/20/Neptune</id>
+ <published>2007-02-20T12:00:00-08:00</published>
+ <updated>2007-02-21T16:48:13-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Internet' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Internet' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Sun' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Sun' />
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Today we announced something, and letâs stick with the code-name âNeptuneâ
+because officially itâs called the
+<a href="http://www.sun.com/products/networking/ethernet/10gigethernet/">Sun x8 Express Dual 10 Gigabit Ethernet Fiber XFP Low Profile Adapter</a>,
+which just rolls off the tongue, doesnât it.   I have to say itâs about the
+butchiest-looking NIC Iâve ever seen.
+Now, normally I would have bypassed the opportunity to blog, because Iâve never
+actually even seen a 10G wire or plug, and have no idea what the trade-offs
+are and what makes a good one.  But our Ariel Hendel wrote
+<a href="http://blogs.sun.com/hendel/entry/russian_dolls">Russian Dolls</a>,
+the first paragraph of which discusses love, soccer, and beer, and which includes
+a remarkable photograph; it is actually about Neptune.  Speaking as a geek who likes
+fast networks and good writing, I think itâs wonderful.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/21/'>
+ <title>Gosling, O.C.</title>
+ <link href='Gosling' />
+ <link rel='replies'        thr:count='0'        type='application/xhtml+xml'        href='Gosling#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/21/Gosling</id>
+ <published>2007-02-21T12:00:00-08:00</published>
+ <updated>2007-02-21T14:58:03-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World/Places/Canada' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Places' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Canada' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World/People' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='People' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Java' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Java' />
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>James has been 
+<a href="http://www.cbc.ca/technology/story/2007/02/21/tech-20070221.html">appointed</a>
+to the
+<a href="http://www.gg.ca/honours/nat-ord/oc/index_e.asp">Order of Canada</a>, and about bloody time.  Not only is this
+well-deserved, but as far as I know, itâs the first time that a
+computer technologist has made it in.  I have nothing against the
+dancers and insurance executives and philanthropists and hockey players
+currently inhabiting the Order, but the construction of the future is in some
+large part in the hands of the engineers; and this needs better recognition.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/20/'>
+ <title>Fair Disclosure</title>
+ <link href='Fair-Disclosure' />
+ <link rel='replies'        thr:count='0'        type='application/xhtml+xml'        href='Fair-Disclosure#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/20/Fair-Disclosure</id>
+ <published>2007-02-20T12:00:00-08:00</published>
+ <updated>2007-02-20T23:05:57-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business/WebFD' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='WebFD' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Web' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Web' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Publishing' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Publishing' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>There&#x2019;s a conversation going on about  <a href='http://en.wikipedia.org/wiki/Regulation_FD'>Regulation Fair Disclosure</a>. Our own Jonathan Schwartz <a href='http://blogs.sun.com/jonathan/entry/one_small_step_for_the'>kicked it off  last October</a>, calling for Reg FD to be revised to allow the use of the Web to publish material financial information.   SEC Chairman Chris Cox surprised a lot of people by responding in a <a href='http://blogs.sun.com/jonathan/entry/sunlight_on_a_cloudy_day...'>comment on Jonathan&#x2019;s blog</a> (I <a href='/ongoing/When/200x/2006/10/04/SEC'>have a lot of time for Chairman Cox</a>, but I was surprised too). It turns out that there are <a href='http://transparencymatters.blogspot.com/2006/11/bad-idea-for-issuers-and-for-investors.html'>those who don&#x2019;t like the idea</a>.  This is a complicated issue that blends Web technology with big-money business issues, and  I&#x2019;m interested in what the people who read <span class="o">ongoing</span> think; I suspect you include some of the people in the world most qualified to have an opinion. <i>[I suggest using the tag &#x201c;WebFD&#x201d; if you&#x2019;re going to contribute in your own space.]</i></div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Thereâs a conversation going on about 
+<a href="http://en.wikipedia.org/wiki/Regulation_FD">Regulation Fair Disclosure</a>.
+Our own Jonathan Schwartz
+<a href="http://blogs.sun.com/jonathan/entry/one_small_step_for_the">kicked it
+off  last October</a>, calling for Reg FD to be revised to allow the
+use of the Web to publish material financial information.  
+SEC Chairman Chris Cox surprised a lot of people by responding in a
+<a href="http://blogs.sun.com/jonathan/entry/sunlight_on_a_cloudy_day...">comment
+on Jonathanâs blog</a> (I
+<a href="/ongoing/When/200x/2006/10/04/SEC">have a lot of time for Chairman
+Cox</a>, but I was surprised too).
+It turns out that there are
+<a href="http://transparencymatters.blogspot.com/2006/11/bad-idea-for-issuers-and-for-investors.html">those
+who donât like the idea</a>.  This is a complicated issue that blends Web technology
+with big-money business issues, and 
+Iâm interested in what the people who read <span class='o'>ongoing</span>
+think; I suspect you include some of the people in the world most qualified to
+have an opinion.
+<i>[I suggest using the tag âWebFDâ if youâre going to contribute in your own space.]</i></p>
+<h2 id='p-2'>Disintermediation</h2>
+<p>Assuming that Web disclosure were fair and accurate 
+and timely, nobody could be against it, right?  Well, it
+would be a classic case of disintermediation and thus threatening to
+intermediaries, for example
+<a href="http://home.businesswire.com/">BusinessWire</a>
+and
+<a href="http://www.prnewswire.com/">PR Newswire</a>.
+They are in the business of collecting news releases from companies and
+disseminating them to subscribers, who include journalists and the financial
+community.
+I donât know how big a business it is.  Back when I was running a
+startup, it was a couple of thousand dollars to do a press release, but big
+companies usually have fixed-price annual deals; Iâd assume Sun does.
+I donât know about the costs to subscribers.</p>
+<p>Note that Mark Hynes, who wrote
+<a href="http://transparencymatters.blogspot.com/2006/11/bad-idea-for-issuers-and-for-investors.html"> A bad idea for issuers and for investors</a>,
+is in Investor Relations for PR Newswire.  Which doesnât mean that his
+arguments are wrong, it just means that heâs unlikely to be neutral; but then,
+neither am I.</p>
+<h2 id='p-1'>Cox: Be Careful</h2>
+<p>Chairman Coxâs letter said âamong the questions that would
+need to be addressed is whether there exist effective means to guarantee that
+a corporation uses its website in ways that assure broad non-exclusionary
+access, and the extent to which a determination that particular methods are
+effective in that regard depends on the particular facts.â 
+Which I would translate as âWeâd have to ensure that the disclosure is really
+fairâ, and Iâd agree with fully.</p>
+<p>Given that financial players can squeeze big-bucks advantages out of
+getting their hands on hot financial info just a little bit ahead of the
+market, and that there are powerful incentives to lie &amp; cheat &amp; steal for many
+of the players in the system, both on the company side and the investor side,
+this has to be done carefully.</p>
+<h2 id='p-3'>Incumbent: Bad Idea</h2>
+<p>PR Newswireâs Mr. Hynes
+<a href="http://transparencymatters.blogspot.com/2006/11/bad-idea-for-issuers-and-for-investors.html">raises</a> ten potential problems,
+saying that in the past, such ideas have been âshown to be unworkable, and
+replaced with the tried and tested option of properly distributed press
+releases serving the financial services community best.â  If you care about 
+this, you should go his essay.
+Speaking only for myself, I think some of his points are good and others
+are bogus; Iâve addressed them below.</p>
+<h2 id='p-4'>Accountability and the Market</h2>
+<p>It seems that that if you were going to Web-enable Reg FD,
+the key point would be accountability:
+making it entirely clear that should the fairness or transparency of the
+disclosure be compromised by a companyâs web-site, or a
+financial playerâs use of it, the misbehaving party can be held
+accountable.</p>
+<p>Given that, unless thereâs some awful technical flaw, why wouldnât we give
+it a try?  PR Newswire and BizWire argue strenuously that they can serve
+companies and investors better.  If so, then the market will speak and both
+sides will continue to choose their services, rather than using
+the Web to bypass them.</p>
+<p><i>[Disclosure: Iâm biased; instinctively suspicious of
+gatekeepers, intermediaries, and monopolies.  Iâd really like the to do this
+on the Web.  But Chairman Cox is right: we have to be careful.]</i></p>
+<h2 id='p-5'>The Contra Position</h2>
+<p>Iâll take the liberty of quoting Mark Hynesâ points in full and addressing
+them one by one. (Hereâs a chance for my expert commenters to point out why
+Iâm wrong.)
+He opens with a question:</p>
+<blockquote><p><i>Why has the concept been found wanting? Here
+are 10 reasons.</i></p>
+<p><i>1. Push versus pull. A posting on a website requires investors
+to proactively set up to receive the information. This has consequences such
+as the institutional market (with greater resources to do this) being better
+informed than retail, creating selective disclosure.</i></p></blockquote>
+<p>Everyone agrees that material releases would have
+to happen at a pre-announced time.  If you cared about a large number of
+companies that were releasing at the same moment, this might be a problem; but
+for the typical retail investor, how hard can it be to watch a well-known
+website at a well-known time?  Iâd think that for the <em>retail</em>
+investor, disintermediation would be a win.</p>
+<blockquote><p><i>2. Formatting. No matter what format is loaded on to the
+website, it will
+inconvenience some part of the media and delivery chain, reducing the
+visibility of news in the multitudes of media. The equity terminals are
+notoriously inflexible in catching news from multiple, random sources. Reuters
+et al are highly unlikely to redesign their entire editorial processes to
+accommodate this notion.</i></p></blockquote>
+<p>This is a hypothetical.  <em>If</em> the media are unwilling to go
+gather news directly from company web-sites and canât handle formats
+like HTML and Atom, then presumably theyâll be happy to go on subscribing
+to PR Newswire.  I canât imagine retail investors worrying much.</p>
+<blockquote><p><i>3. Validation/ editorial checking. There is well-substantiated evidence that show the number of occasions on which a release - fully approved by the company - has mistakes. 3rd party eyes and ears can help ensure that incorrect information does not reach the markets.</i></p></blockquote>
+<p>This is an excellent point; speaking as one with long-time experience in
+reference publishing, Iâm aware of the fact that you keep turning up
+significant errors even after multiple proof-reading passes; and an error in a
+material financial release could really hurt.
+Of course, at the end of the day, the accountability for errors has to be with
+the originator of the information.  Still, assuming that PR Newswireâs
+customers find value in this, it should be decoupled from the
+information-pump function and offered as a separate service.  I suspect that it
+would be of significant value to many companies.</p>
+<blockquote><p><i>4. Security of posting. Is the person posting the release on the issuer's website entitled to do so? Would every company have to create restricted zones for IR, corporate secretary etc?</i></p></blockquote>
+<p>This seems entirely bogus to me.  Is the person sending the release to PR
+Newswire entitled to do so?  Doesnât every company currently have to create special
+press-releasing roles for IR, corporate secretary etc?   Of course.  Plus, any
+reasonably well-managed company already has some sort of access-control
+protocol in place for its website; I guarantee that I wouldnât be allowed to
+update Sunâs
+<a href="http://www.sun.com/aboutsun/investor/index.jsp">Investor
+Relations</a> page.</p>
+<blockquote><p><i>5. Role of financial PR companies. Financial PR companies post large numbers of results releases to the newswires. Would every company expect to give the PR companies access to the (secure) area of their website?</i></p></blockquote>
+<p>I think itâs worth the experiment of giving companies the option (remember,
+weâre talking about an option, not a compulsory mandate) of posting their own
+numbers without going through a PR company.</p>
+<blockquote><p><i>6. Down time. No single source can be relied upon 100% - the newswires have (had to) invest in redundancy of systems, ensuring permanent access. Not every company will have the resources to do this, and smaller caps are especially vulnerable.</i></p></blockquote>
+<p>This is another good point; lots of companiesâ websites are mostly
+brochure-ware and donât have the kind of redundancy that the CFO 
+would require.  Others do.  Those who need help present another
+business opportunity for experts such as PR Newswire and BizWire.</p>
+<blockquote><p><i>7. Access to the 'editorial process'. Journalists work in many different ways, some on email, some using newswires, some on fax etc, with a constantly moving population. It is unreasonable to expect all companies to keep up to date with journalist changes, or to develop multiple mechanisms to deliver to these different audiences. And expecting investors and journalists to re-register is frankly unrealistic.</i></p></blockquote>
+<p>In my experience, almost all unsolicited press releases are simply ignored
+by almost all journalists.  Those that really matterâfor example, financial
+results from public companiesâare actively sought out by those who
+cover the companies.  
+I see no reason why a journalist covering a
+particular release would care much whether theyâre getting it from a companyâs
+website or the current intermediaries.</p>
+<blockquote><p><i>8. New media types are constantly emerging - it is in the commercial interests of the newswire to constantly patrol for these media, and harness them. Would all quoted companies be as diligent?</i></p></blockquote>
+<p>What Mr. Hynes
+is discussing here is either journalismâproactively going after a storyâor
+feed filtering such as is now provided by Technorati and its competitors.  I
+donât see what either has to do with material financial disclosures; for those,
+Reg FD makes it clear that itâs the responsibility of the company to
+ensure proactively that these be available, timely and fair.</p>
+<blockquote><p><i>9. Simultaneity. The principles of good disclosure - never mind the law of the land - requires news to be accessible to all investors at the same time. This would be impossible for companies to achieve.</i></p></blockquote>
+<p>This is Mr. Hynesâ single best point, I think.   I donât know enough to
+know whether heâs right, but I bet somebody who reads this does.
+What are the service-level guarantees that the incumbents provide?  For
+example, when HPQâs quarterlies cross the wires, if Iâm a stock-market dabbler
+on DSL in Bend, Oregon, how many microseconds is the lag between the time when a
+Goldman Sachs trader sees them and I do?  The maximum tolerable lag between
+Goldman Sachs and Bear Stearns?</p>
+<p>Given a clean definition of the acceptable information
+latencies, itâll be an interesting question how well the Web can do.  It might
+not be good enough to just post the release on the corporate server in Mountain View
+or Raleigh or wherever, there might be a case for Akamai-style
+infrastructure.</p>
+<p>It also dawns on me that when you get the quarterlies, the real-world
+latency is the time it takes you to plow through all the earnest corporate
+bumph at the top and get to the actual numbers that are actionable for you.
+To reduce it, the smart thing to do is to start sending the data in XML so
+that you can pre-program your computer to show you what you care about in a
+fraction of a second.</p>
+<blockquote><p><i>10. These challenges will inevitably hurt smaller companies most, a) by increasing cost to enhance their websites to the necessary degree, and b) investors will access large companies first; an investment story from a smaller company will win less prominence, ultimately strangling some prematurely, due to less access to capital.</i></p></blockquote>
+<p>Iâm sorry, but absent the evidence, the above are just
+unsupported assertions.</p>
+<h2 id='p-6'>My View</h2>
+<p>I suspect delivering financials to investors is a
+corporate function that will probably end up being largely outsourced, as it
+is today.  Now is the time to try basing this delivery
+on open Web infrastructure rather than the proprietary pipes of a few
+incumbent gatekeepers.  That way thereâs room for 
+competition, and thus improved business performance, at both ends of the
+pipe.</p>
+<h2 id='p-7'>What Do You Think?</h2>
+<p>This dialogue is now in progress.  On the evidence, both the corporate and
+government sides of it are listening.   If we can figure out how to make the
+Web do what companies and investors need, I think thereâs a chance to remove
+some friction from the investment economy.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/19/'>
+ <title>Camera Blues</title>
+ <link href='Camera-Blues' />
+ <link rel='replies'        thr:count='14'        type='application/xhtml+xml'        href='Camera-Blues#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/19/Camera-Blues</id>
+ <published>2007-02-19T12:00:00-08:00</published>
+ <updated>2007-02-20T10:57:26-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Arts/Photos' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Arts' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Photos' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>Both my cameras are having problems so I&#x2019;m grumpy; I&#x2019;m cheering myself up by watching the digicam market, appreciating what I have, and enjoying flash photography.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Both my cameras are having problems so Iâm grumpy; Iâm cheering myself
+up by watching the digicam market, appreciating what I have, and enjoying
+flash photography.</p>
+<p>Letâs start with the good stuff.  
+Back in December I
+<a href="/ongoing/When/200x/2006/12/27/Christmas-Pictures#p-2">wrote</a> about
+the joys of using a flash bounce-card.  Itâs totally the single biggest step
+forward in my camera technique in years.</p>
+<img src="IMGP4658.png" alt="The seven lucky gods" />
+<div class="caption"><p>The
+<a href="http://en.wikipedia.org/wiki/Seven_Lucky_Gods">Seven Lucky Gods</a>,
+a gift from
+<a href="http://www.shimane-oss.org/">Open Source Shimane</a>.</p></div>
+<p>For anyone who hasnât figured this out yet, start doing it, itâs easy.  You
+grab a piece of white paper and figure out a way to hold it up to the front of
+your camera so that it bounces the light from the flash off to the side,
+ideally against a not-too-distant reasonably-light-colored surface.
+You could carry around a prepared piece of paper, but I just
+use the nearest business card or envelope or whatever, and usually get good
+results; in the picture above, a monthly bank statement.
+The magic that makes it work is that digicams fire the flash twice, the
+first time to set the meter; so it figures out how to compensate for whatever
+weirdo lighting effect youâve created.</p>
+<p>Most of my interior shots are the kids so I wonât show them to you, which
+is a pity because Iâve been getting perfect warm creamy flesh-tones almost
+every time.</p>
+<p>So I have a question; why donât the cameras come with built-in
+apparatus to do this automatically?  Most digicam flash pictures come out
+bleached and glaring and awful.  For example, those Seven Lucky Gods have a
+pretty pleasing colour balance to my eye; contrast the horrid lighting 
+in 
+
+<a href="/ongoing/When/200x/2007/02/09/Shimane">the dinner-table photo</a>
+of one of the visitors who brought them over;
+for some reason I didnât use a flash card.</p>
+<h2 id='p-1'>Pocket Camera</h2>
+<p>My darling
+<a href="/ongoing/When/200x/2004/11/17/S70">Canon S70</a> is sick;
+the zoom control sometimes zooms, sometimes doesnât.  Itâs been in my pocket
+more or less every day since 2004, in some really inhospitable places; Iâve
+used it on beaches and in rainstorms and prairie blizzards and dropped it a
+couple of times.  It doesnât look as bad as
+<a href="http://photo.net/photodb/photo?photo_id=1046936">Willie Nelsonâs
+guitar</a>, but it doesnât look good.
+I guess Iâll try to get it repaired but Iâm not that optimistic.</p>
+<p>I have to say that, four years after
+<a href="/ongoing/When/200x/2003/06/01/S50">getting into</a> this camera
+format, Iâm still in love with it.  Itâs a pocket cam, itâll do point-and-shoot
+all right, but itâs a bit bigger, a bit fatter, has pretty extreme wide-angle
+capabilities and as much manual control as you want to exercise.</p>
+<p>Sure, other things being equal, the big Pentax DSLR is more flexible
+and can capture a more beautiful image.  But other things are notably unequal, in
+that the pocket cam is always there in my pocket when the beautiful image
+occurs.</p>
+<p>Thereâs a problem in that if the S70 is toast, itâs not obvious what to
+replace it with.  The follow-on S80 has been well-reviewed, but doesnât do
+RAW.  Announced in 2005, itâs getting a little elderly and notably doesnât
+have image stabilization, which is basically the only really interesting new
+digicam feature to have arrived in the last couple of years.</p>
+<p>Thereâs not much else in the niche; Digital Photo Review, on which I rely
+perhaps a little more than I should,
+<a href="http://www.dpreview.com/reviews/panasoniclx2/">savaged the Panasonic
+LX2</a>.  Hmm, I see that the about-to-arrive
+<a href="http://www.dpreview.com/news/0702/07022006_nikonp5000.asp">Nikon
+P5000</a> is in a similar niche, and the
+<a href="http://www.dpreview.com/news/0608/06082103pentaxa20.asp">Pentax
+A20</a> is also a candidate.  Also, I bet that thereâll be a Canon S90 pretty
+soon.</p>
+<h2 id='p-2'>DSLR</h2>
+<p>I havenât regretted for a moment snapping up the
+<a href="/ongoing/When/200x/2004/05/16/PentaxDSLR">Pentax *ist D</a> in early 2005.
+Itâs been a complete joy to work with, and I still havenât come close to
+putting all the things it can do to work.</p>
+<p>Unfortunately, thereâs some dust on the sensor nowâyou can only see it
+against a flat background like sky or skin, and you can usually correct it
+with Photoshop, but itâs really irritatingâso something has to be done.  
+Apparently, you 
+<a href="http://www.luminous-landscape.com/reviews/visible-dust.shtml">can
+sweep out
+your cameraâs innards yourself</a>, but Iâm a little fumble-fingered and a lot
+impatient and the notion makes me nervous.  Hmm, the *ist Dâs ownerâs manual
+has detailed instructions, it doesnât sound <em>that</em> hairy.</p>
+<p>Gosh, I observe that the reviews on the
+<a href="http://www.pentaximaging.com/products/product_details/digital_camera--*ist_DL/reqID--8793673/subsection--digital_slr">Pentax
+K10D</a> are positively glowing.  Also that it has image stabilization.  Also
+that it has a self-cleaning sensor.  Down, boy.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/18/'>
+ <title>Old Map of the Future</title>
+ <link href='JODI' />
+ <link rel='replies'        thr:count='3'        type='application/xhtml+xml'        href='JODI#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/18/JODI</id>
+ <published>2007-02-18T12:00:00-08:00</published>
+ <updated>2007-02-18T22:26:57-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World/Life Online' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Life Online' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Arts/Conceptual' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Arts' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Conceptual' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>I vaguely remember running across it a couple of times a dozen years ago or more, described as an &#x201c;experimental Web site&#x201d;. From time to time, when bored, I&#x2019;d visit <a href='http://jodi.org'>jodi.org</a> and often my browser would end up toasted by flailing JavaScript <em>[Warning: it can still happen]</em>.  I saw some effects there for the first time that are now in every AJAXian&#x2019;s toolbox.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>I vaguely remember running across it a couple of times a dozen years ago or
+more, described as an âexperimental Web siteâ.
+From time to time, when bored, Iâd visit <a href="http://jodi.org">jodi.org</a>
+and often my browser would end up toasted by flailing JavaScript <em>[Warning:
+it can still happen]</em>.  I saw
+some effects there for the first time that are now in every
+AJAXianâs toolbox.</p>
+<p>I totally canât remember why, a few months ago, I looked again,
+but their
+<a href="http://map.jodi.org/">network map</a> captured my
+imagination.  Itâs kind of hard to describe; many
+of the places on it are gone, and many that still exist donât really need to.
+Still, a little poking around may not be entirely
+unrewarding.</p>
+<p>While writing this, I made the mistake of visiting Wikipedia and found a
+perfectly ordinary entry giving the who/what/where/when of jodi.org.  I
+preferred it when I didnât know any of those things.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/16/'>
+ <title>Who&#x2019;s Got the Subscribers?</title>
+ <link href='Subscribers' />
+ <link rel='replies'        thr:count='11'        type='application/xhtml+xml'        href='Subscribers#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/16/Subscribers</id>
+ <published>2007-02-16T12:00:00-08:00</published>
+ <updated>2007-02-18T09:11:37-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Web' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Web' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Publishing' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Publishing' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>I saw a notice from Google that their blog-search robot <a href='http://googlereader.blogspot.com/2007/02/one-subscriber-two-subscribers-three.html'>will start reporting subscriber counts</a>.  I poked into a recent log-file and found lots of agents doing this, so here&#x2019;s a report with some numbers.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>I saw a notice from Google that their blog-search robot
+<a href="http://googlereader.blogspot.com/2007/02/one-subscriber-two-subscribers-three.html">will
+start reporting subscriber counts</a>.  I poked into a recent log-file and
+found lots of agents doing this, so hereâs a report with some numbers.</p>
+<h2 id='p-1'>Volume</h2>
+<p>There may be some issues with these numbers, read the discussion below; but
+hereâs the first cut.</p>
+<table cellpadding="4">
+<tr align="center"><th>Crawler</th><th>Subscribers</th></tr>
+<tr align="right"><td><a href="http://www.newsgator.com">NewsGator</a></td><td>6161</td></tr>
+<tr align="right"><td><a href="http://www.google.com/feedfetcher.html">Google</a></td><td>4552</td></tr>
+<tr align="right"><td><a href="http://www.bloglines.com">Bloglines</a></td><td>4363</td></tr>
+<tr align="right"><td><a href="http://www.netvibes.com/">NetVibes</a></td><td>288</td></tr>
+<tr align="right"><td><a href="http://newshutch.com">NewsHutch</a></td><td>143</td></tr>
+<tr align="right"><td><a href="http://reader.livedoor.com/">livedoor</a></td><td>38</td></tr>
+<tr align="right"><td><a href="http://dl0.feedlounge.com/">FeedLounge</a></td><td>24</td></tr>
+<tr align="right"><td><a href="http://www.hanrss.com">HanRSS</a></td><td>20</td></tr>
+<tr align="right"><td><a href="http://www.alesti.org/">Alesti</a></td><td>18</td></tr>
+<tr align="right"><td><a href="http://www.pageflakes.com">PageFlakes</a></td><td>13</td></tr>
+<tr align="right"><td><a href="http://feedbringer.net/">Feedbringer</a></td><td>7</td></tr>
+<tr align="right"><td><a href="http://www.r-mail.org">kb.Rmail</a></td><td>5</td></tr>
+<tr align="right"><td><a href="http://www.NewsAlloy.com">NewsAlloy</a></td><td>3</td></tr>
+<tr align="right"><td><a href="http://www.eldono.de">Eldono</a></td><td>2</td></tr>
+<tr align="right"><td><a href="http://www.pluck.com">Pluck</a></td><td>2</td></tr>
+<tr align="right"><td><a href="http://www.rssfwd.com/">RssFwd</a></td><td>2</td></tr>
+<tr align="right"><td><a href="http://feedpath.jp">Feedpath</a></td><td>1</td></tr>
+</table>
+<h2 id='p-2'>Issues</h2>
+<p>As it says above, there are some.  First of all, Iâm only counting the
+number of subscribers to my Atom 1.0 feed, not my no-longer-present
+permanently-redirected RSS feed.  I think the biggest sufferer is NetVibes,
+which drops 354.</p>
+<p>Second, several of the services, notably Google and NewsGator, report what
+seem to be multiple different groups of subscribers to my Atom feed.   A few
+of them are kind of understandable: two slashes instead of one,
+<code>www.tbray.org</code> vs. <code>tbray.org</code>, and a few to
+<code>/ongoing/ongoing.atom?foo=bar</code> (huh?); but for example Google,
+which helpfully labels each group with a unique <code>feed-id</code>, suggests
+that several different ones apply to
+<code>http://www.tbray.org/ongoing/ongoing.atom</code>.  Beats me.  This may
+lead to a little inaccuracy when adding up other multi-subscribers like
+NewsGator; but wouldnât change the ranking, I think.</p>
+<h2 id='p-3'>Rah Rah Bloglines</h2>
+<p>Apparently the programmers of Bloglinesâ robots are the only ones who have
+taken the trouble to read RFC2616 and RFC3986 (especially Section 6 of the
+latter); they handle all the redirects and variations correctly and only know
+about two ways to subscribe to me, the right one, and twenty subscribers to
+that <code>?foo=bar</code> anomaly.</p>
+<h2 id='p-4'>Unclear On The Concept</h2>
+<p>There are a few people whoâve subscribed to URIs that donât exist, or
+arenât feeds: <code>/ongoing/</code> itself, my <code>robots.txt</code>,
+<code>ongoing.pie</code> (snicker), random pictures;
+thatâd be part of your Internet Background Radiation.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/17/'>
+ <title>Dub, Baby</title>
+ <link href='CD-Baby' />
+ <link rel='replies'        thr:count='8'        type='application/xhtml+xml'        href='CD-Baby#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/17/CD-Baby</id>
+ <published>2007-02-17T12:00:00-08:00</published>
+ <updated>2007-02-18T00:16:58-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Arts/Music/Recordings' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Arts' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Music' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Recordings' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business/Internet' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Internet' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>What happened was, I got a note from my friend <a href='http://www.inthachamber.com/'>Adam</a>  &#x201c;Vudu&#x201d; (<a href='http://www.myspace.com/echodub'>MySpace</a>) about his new CD  <a href='http://www.cdbaby.com/cd/echomusic2'>echo :: dubstyle</a>. I have a soft spot for dub and liked the samples, so I hit the &#x201c;Buy&#x201d; button. The record is good, a huge bargain at $12.97, go get it.  But the buying experience was out of the ordinary.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>What happened was, I got a note from my friend
+<a href="http://www.inthachamber.com/">Adam</a> 
+âVuduâ (<a href="http://www.myspace.com/echodub">MySpace</a>) about his
+new CD 
+<a href="http://www.cdbaby.com/cd/echomusic2">echo :: dubstyle</a>.
+I have a soft spot for dub and liked the samples, so I hit the âBuyâ button.
+The record is good, a huge bargain at $12.97, go get it.  But the buying
+experience was out of the ordinary.</p>
+<img src="echo-dubstyle.png" alt="echo: dubstyle" class="inline" />
+<h2 id='p-2'>The Music</h2>
+<p>I understand there are people out there who donât like dub; how
+unfortunate.  This isnât my favorite dub recordâthat would be <cite>Dub the
+Rock</cite> by
+<a href="/ongoing/When/200x/2003/09/23/IsraelVibration">Israel
+Vibration</a>âbut itâs a keeper.  Itâs traditional, Adamâs not trying to push
+back the edges of the medium.
+There are some surprising bass tracksâthatâs
+his home instrumentâplus he he works the soundstage well and keeps the textures
+shifting, without ever losing that heavy dub lilt.</p>
+<p>I was listening while writing, and track 8, <cite>Sidestep Dub</cite>,
+yanked my attention away from the computer; itâs got some intelligent cool-electronica
+punctuation and I was sad when it ended.</p>
+<p>There are fourteen dubs here, then eight are offered again in âslowedâ
+(with a credit to
+<a href="http://en.wikipedia.org/wiki/DJ_Screw">DJ Screw</a> for the notion)
+versions.
+I ainât anywhere near hip enough to know about screwing or slowing, but eight
+more dub tracks is a good thing.  I zeroed on on my fave <cite>Sideways
+Dub</cite> and I like it both screwed and unscrewed.  This is a good
+thing.</p>
+<p>Like I said, a bargain.
+(Potential purchasers should bear in mind that a
+<a href="/ongoing/When/200x/2006/03/02/Totem">serious subwoofer</a> will
+enhance the listening experience.)</p>
+<h2 id='p-1'>The Commerce</h2>
+<p>The online purchase sequence at
+<a href="http://cdbaby.com/">CD Baby</a>
+doesnât stand out in my memory, but a few
+minutes later I got this email:</p>
+<blockquote>
+<p>Subject: CD Baby Loves Tim</p>
+<p>Tim -</p>
+<p>Thanks for your order with CD Baby!</p>
+<p>This is just a happy automated email to let you know a real person
+will email you as soon as your package is sent, and you will also
+receive a paper receipt with  your order in the mail.</p>
+<p>Please save this email in case you have any questions about your
+order.</p>
+<p>** NOTE: if any of the info below looks wrong, please hit REPLY now
+to let us know!</p>
+</blockquote>
+<p>I liked the honesty about automated vs. personal email, and the notion
+of encouraging you to mail back if somethingâs wrong; refreshing!</p>
+<p>Then the next day:</p>
+<blockquote>
+<p>Subject: CD Baby Loves Tim</p>
+<p>Tim -</p>
+<p>Thanks for your order with CD Baby!</p>
+<p><i>[... details omitted ... ]</i></p>
+<p>Your CD has been gently taken from our CD Baby shelves with
+sterilized contamination-free gloves and placed onto a satin pillow.</p>
+<p>A team of 50 employees inspected your CD and polished it to make sure
+it was in the best possible condition before mailing.</p>
+<p>Our packing specialist from Japan lit a candle and a hush fell over
+the crowd as he put your CD into the finest gold-lined box that money
+can buy.</p>
+<p>We all had a wonderful celebration afterwards and the whole party
+marched down the street to the post office where the entire town of
+Portland waved 'Bon Voyage!' to your package, on its way to you, in
+our private CD Baby jet on this day, Wednesday, January 31st.</p>
+<p>I hope you had a wonderful time shopping at CD Baby.  We sure did.
+Your picture is on our wall as 'Customer of the Year'.  We're all
+exhausted but can't wait for you to come back to CDBABY.COM!!</p>
+</blockquote>
+<p>Then, about the same day I got the disk, I got one more:</p>
+<blockquote>
+<p>Subject: CD Baby Loves Tim</p>
+<p>Tim -</p>
+<p>Did you get your CD OK?
+Was everything perfect?</p>
+<p>If you liked a CD you bought, please write a little review on the
+musician's CD Baby page?  Just click the link below, and scroll to
+the bottom of the page. You'll see where it says, "WRITE A REVIEW".
+It only takes a minute and would mean a lot to the artists.</p>
+</blockquote>
+<p>Now, thatâs what Internet commerce ought to be like: prompt, friendly, and
+smart.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/14/'>
+ <title>SOA, REST, Java</title>
+ <link href='WS-REST' />
+ <link rel='replies'        thr:count='5'        type='application/xhtml+xml'        href='WS-REST#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/14/WS-REST</id>
+ <published>2007-02-14T12:00:00-08:00</published>
+ <updated>2007-02-14T17:15:17-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Web/Services' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Web' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Services' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Java' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Java' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>What I usually do in this space is grumble and whine about SOA &#x26; SOAP and so on.  Today, let&#x2019;s start with a  <a href='http://www.soafacts.com/'>laugh</a>, instead.   But actually, there&#x2019;s news; the Java tribe has decided to take REST seriously, see <a href='http://jcp.org/en/jsr/detail?id=311'>JSR 311</a> and, for some more pointers,  <a href='http://blogs.sun.com/theaquarium/entry/jsr_311_java_api_for'>Eduardo&#x2019;s write-up</a>.  I haven&#x2019;t had time to do a deep-dive, but I&#x2019;m reassured by the presence of <a href='http://weblogs.java.net/blog/mhadley/'>Marc Hadley</a> A.K.A. the <a href='https://wadl.dev.java.net/'>WADL</a> guy; and it looks that there will be other real experts at the table.  On the other hand, Elliotte Rusty Harold emits an  <a href='http://tech.groups.yahoo.com/group/rest-discuss/message/7830'>extended snarl</a>.  (Sample: &#x201c;I hope we can derail this completely...&#x201d;)  Hey Elliotte, I guess making friends and influencing people is for losers, right? The proof of the pudding, obviously, is in the eating, but the fact that this discussion is happening has to be a good thing.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>What I usually do in this space is grumble and whine about SOA &amp; SOAP
+and so on.  Today, letâs start with a 
+<a href="http://www.soafacts.com/">laugh</a>, instead.   But actually, thereâs
+news; the Java tribe has decided to take REST seriously, see
+<a href="http://jcp.org/en/jsr/detail?id=311">JSR 311</a> and, for some more
+pointers, 
+<a href="http://blogs.sun.com/theaquarium/entry/jsr_311_java_api_for">Eduardoâs
+write-up</a>.  I havenât had time to do a deep-dive, but Iâm reassured by the
+presence of
+<a href="http://weblogs.java.net/blog/mhadley/">Marc Hadley</a> A.K.A. the
+<a href="https://wadl.dev.java.net/">WADL</a>
+guy; and it looks that there will be other real experts at the table.  On the
+other hand, Elliotte Rusty Harold emits an 
+<a href="http://tech.groups.yahoo.com/group/rest-discuss/message/7830">extended
+snarl</a>. 
+(Sample: âI hope we can derail this completely...â)  Hey Elliotte,
+I guess making friends and influencing people is for losers, right?
+The proof of the pudding, obviously, is in the eating, but the fact that this
+discussion is happening has to be a good thing.</p>
+<p><i>Update:</i> the RESTafarians are piling onto the expert group, and Marc
+Hadley shows some
+<a href="http://weblogs.java.net/blog/mhadley/archive/2007/02/jsr_311_java_ap.html">sample
+code</a>.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/14/'>
+ <title>Tab Sweep</title>
+ <link href='Tab-Sweep' />
+ <link rel='replies'        thr:count='1'        type='application/xhtml+xml'        href='Tab-Sweep#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/14/Tab-Sweep</id>
+ <published>2007-02-14T12:00:00-08:00</published>
+ <updated>2007-02-14T12:47:37-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business/Intellectual Property' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Intellectual Property' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='The World' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Solaris' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Solaris' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Ruby' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Ruby' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Security' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Security' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>As usual, there isn&#x2019;t a unifying theme.  In this issue: lumpiness, stuff, microformats, eye candy, metaprogramming, beards, and psychology.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>As usual, there isnât a unifying theme.  In this issue: lumpiness, stuff,
+microformats, eye candy, metaprogramming, beards, and psychology.</p>
+<p>Letâs start with Paul Kedroskyâs
+<a href="http://paul.kedrosky.com/archives/2007/02/03/building_the_pe.html">Building
+the Perfect Board Package</a>, which quotes a âsales-guru colleagueâ as saying
+the following: âLumpy is not a fact of life in enterprise sw companies - lumpy
+companies should never go public.â  Jeepers, can that be right?  Iâve never
+been in Oracleâs board-room, but enterprise SW traditionally has been one of
+the lumpiest businesses there is that doesnât involve building nuclear power
+plants or Olympic facilities.  While weâre on the subject of surprising things
+in Mr. Kâs vicinity, he wrote a
+<a href="http://online.wsj.com/public/article/SB117106313810704156-oOFOzhK1KpRAztO1N0QjS9J70F4_20070217.html?mod=blogs">Wall
+Street Journal Op-Ed</a> that concludes with âAnd Mr. Jobs knows that there is
+pretty much zero chance the music industry will eliminate DRM. That move would
+sound a death ringtone for their struggling business, making online piracy
+dead simple and destroy the livelihood of an entire generation of artists.â
+For the record, a high proportion of people who are educated about the issues
+and donât work for record companies do <em>not</em> believe that DRM is 
+about helping artistsâ livelihoods.</p>
+<p>Moving on, check out my brother Robâs
+<a href="http://takingalongview.blogspot.com/2007/02/vapourings-about-stuff.html">essay
+on, uh, stuff</a>, which despite its offhand tone says (I think) some fairly
+profound things.</p>
+<p>Back to business.  Several people have now asked me to think about CotÃ©âs
+<a href="http://www.redmonk.com/cote/2007/01/31/rfp-microformat/">RFP
+Microformat</a> proposal.  The idea is compelling, all right.  How would one
+build critical mass?  Hmmm.</p>
+<p>While weâre still in Redmonk country, check out Steve OâGradyâs
+<a href="http://redmonk.com/sogrady/2007/02/10/finally-some-linux-eye-candy/">Finally, Some Linux Eye Candy</a>.
+Gotta get me some of that on my Ubuntu box.  I suspect that in the pretty near
+future, this kind of UI will be a requirement for personal computers that want
+to be taken seriously.  Glad that
+<a href="http://blogs.sun.com/harpster/entry/beryl">Harpster agrees</a>.</p>
+<p>Letâs visit Rubyland.  At <cite>Practical Ruby</cite> thereâs
+<a href="http://practicalruby.blogspot.com/2007/02/ruby-metaprogramming-introduction.html">A Ruby Metaprogramming Introduction</a>;
+interestingly, they want you to drop the entry into your programming editor
+rather than read it in your browser.  So far it looks good.</p>
+<p>Those outside the Ruby community have occasionally remarked that the
+culture seems, well, a little weird.  Theyâre wrong; in fact itâs extremely
+weird.  Set your weirdness-tolerance level to the absolute maximum and check
+out
+<a href="http://poignantguide.net/ruby/chapter-7.html">When You Wish Upon a
+Beard</a> by
+<a href="http://en.wikipedia.org/wiki/Why_the_lucky_stiff">why the lucky
+stiff</a>.  In among the cartooning are koans like
+<code>"!pleH".send(:reverse)</code>.</p>
+<p>Letâs close with a bang, namely Bruce Schneierâs
+<a href="http://www.schneier.com/essay-155.html">The Psychology of Security</a>.
+Itâs large and it covers its subject exhaustively and uncompromisingly.  Youâll
+need to set aside a chunk of time to read it, and you should read it.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/13/'>
+ <title>AMP R Us</title>
+ <link href='AMP' />
+ <link rel='replies'        thr:count='15'        type='application/xhtml+xml'        href='AMP#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/13/AMP</id>
+ <published>2007-02-13T12:00:00-08:00</published>
+ <updated>2007-02-13T21:00:55-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Open Source' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Open Source' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Solaris' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Solaris' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>I&#x2019;m happy; <a href='http://cooltools.sunsource.net/coolstack/index.html'>Cool Stack</a> was just a first step.  This is something I&#x2019;ve been arguing for since approximately fifteen minutes after arriving here.  The publicity is <a href='http://www.sun.com/solutions/nextgenweb/'>here</a>, <a href='http://www.sun.com/2007-0213/feature/index.jsp?intcmp=hp2007feb13_web_read'>here</a>, and especially here: <a href='http://www.sun.com/software/solaris/amp/index.html'>Sun Optimized AMP Stack for the Solaris 10 OS</a>. There&#x2019;s lots of marketing language, but I think the essential thing is that Sun is going to try to be a first-rate supplier of all the important pieces of open-source Web-facing software.  The job isn&#x2019;t finished yet, until <em>all</em> of Apache and MySQL and PostgreSQL and PHP and Python  and Ruby and Rails are in the package, all optimized for Solaris, all stuffed with DTrace probes, and all with developer and production support available. It won&#x2019;t be long.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Iâm happy;
+<a href="http://cooltools.sunsource.net/coolstack/index.html">Cool Stack</a>
+was just a first step.  This is something Iâve been arguing for since
+approximately fifteen minutes after arriving here.  The publicity is
+<a href="http://www.sun.com/solutions/nextgenweb/">here</a>,
+<a href="http://www.sun.com/2007-0213/feature/index.jsp?intcmp=hp2007feb13_web_read">here</a>, and especially
+here: <a href="http://www.sun.com/software/solaris/amp/index.html">Sun Optimized AMP Stack for the Solaris 10 OS</a>.
+Thereâs lots of marketing language, but I think the essential thing is that
+Sun is going to try to be a first-rate supplier of all the important pieces of
+open-source Web-facing software.  The job isnât finished yet, until
+<em>all</em> of Apache and MySQL and PostgreSQL and PHP and Python 
+and Ruby and Rails are in the package, all optimized for Solaris, all stuffed
+with DTrace probes, and all with developer and production support available.
+It wonât be long.</p>
+<p>Acronyms are funny.  In LAMP, everything (but, it seems, the âAâ) is
+replaceable.  SAMP is kind of boring.  I proposed MARS for
+MySQL/Apache/Ruby/Solaris, and the Postgresians (got a few of âem here) like
+PARS.  Or PADS for
+Django-heads.  Make up your own.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/08/'>
+ <title>Berkeley on Parallelism</title>
+ <link href='Berkeley-Parallel' />
+ <link rel='replies'        thr:count='5'        type='application/xhtml+xml'        href='Berkeley-Parallel#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/08/Berkeley-Parallel</id>
+ <published>2007-02-08T12:00:00-08:00</published>
+ <updated>2007-02-13T12:20:54-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Concurrency' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Concurrency' />
+ <summary type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>Anyone who cares at all about taking advantage of these nasty new microprocessors that still follow Moore&#x2019;s law but sideways not just straight up ought to go and read <a href='http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-183.html'>The Landscape of Parallel Computing Research: A View from Berkeley</a>. As the title suggests, it&#x2019;s an overview paper.  Thank goodness we have universities, so that smart people who know about this stuff can invest a few months in surveying the landscape and report back for the rest of us who are being whipped around by the market maelstrom. Herewith <em>way</em> too much applause and disagreement and expansion.</div></summary>
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Anyone who cares at all about taking advantage of these nasty new
+microprocessors that still follow Mooreâs law but sideways not just straight
+up ought to go and read
+<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-183.html">The Landscape of Parallel Computing Research: A View from Berkeley</a>.
+As the title suggests, itâs an overview paper.  Thank goodness we have
+universities, so that smart people who know about this stuff can invest a few
+months in surveying the landscape and report back for the rest of us who are
+being whipped around by the market maelstrom.
+Herewith <em>way</em> too much applause and disagreement and
+expansion.</p>
+<p><i>[First off, thanks to Liang Chen; Iâd been meaning to get around to
+looking at this for a while, and he slapped a printed copy down in front of
+me, which got me started.]</i></p>
+<h2 id='p-1'>Logistics</h2>
+<p>This is a big, thick, dense paper; I had to read it in fits and starts
+while doing lots of other things and I lost track, but I bet it added up to a
+couple of hours.  Also, thereâs a
+<a href="http://view.eecs.berkeley.edu/wiki/Main_Page">supporting wiki</a>
+and a
+<a href="http://view.eecs.berkeley.edu/blog/">blog</a>,
+although Iâm not clear whether the paper represents the conclusion of the wiki
+process, or whether the material in the wiki reflects further thought.</p>
+<h2 id='p-2'>Crunchy Research Goodness</h2>
+<p>Maybe the best thing here for me is that the survey covers a bunch of research
+that Iâd missed.   Iâm sure lots of my readers knew the
+following, but I didnât:</p>
+<ul>
+<li><p>Internal system bandwidth is increasing much faster than latency,
+they say âat least the square of the improvement in latencyâ.</p></li>
+<li><p>Cisco has been drawing a lot of attention with their Metro chip:
+188 small cores based on 130nm technologies.</p></li>
+<li><p>There are some neat calculations from Amdahlâs law to suggest that
+making the cores on your chip non-uniform, as in having one thatâs a lot
+faster than the rest, can pay off big-time.</p></li>
+<li><p>As memories get bigger and cheaper and processors get faster, the
+number of processor cycles to fetch something all the way from mainline RAM
+gets bigger and bigger.</p></li>
+<li><p>In a complicated multi-core multi-chip system, message-passing 
+latency between core varies dramatically depending on how âcloseâ the cores
+are to each other.  Hmm, I feel a new acronym coming on: NuML.</p></li>
+<li><p>In recent research, âAutotunersâ have been showing excellent results.
+Itâs like this: there are a <em>lot</em> of different ways a compiler can go
+about optimizing the code it generates.  Itâs really tough to make the right
+choices along many different optimization axes based on your best guess as
+to how the underlying hardware will behave.  An autotuner explores the
+optimization space by trying random permutations of lots of different settings
+while running actual code, and discovers empirically what works best; you run
+it once to determine the right 
+compiler settings for a particular machine configuration.   Unsurprisingly,
+these things can outperform the best guesses of the compiler writers.</p></li>
+</ul>
+<h2 id='p-3'>Convincing</h2>
+<p>The paper presents a few arguments I hadnât heard before
+that had me thinking (without going and plowing through all the supporting
+research): that <em>has</em> to be right.</p>
+<h3 id='p-4'>Finite Automata </h3>
+<p>State machines have long been my personal single favorite piece of Computer
+Science.  But the parallelization story isnât good, not good at all.  Which
+means they will probably become a little less central to our discipline.
+Sob.</p>
+<h3 id='p-5'>Multicore vs. Manycore</h3>
+<p>Iâd never seen âmanycoreâ prior to reading this, perhaps itâs a term of art
+in the Computer-Architecture coffee-shops.  By âmulticoreâ they mean âwhat IBM
+and AMD and Intel and Sun are doing nowâ.  By âmanycoreâ they mean, âway more
+cores, each simpler, like what the Cisco Metro is doingâ.</p>
+<p>They argue that âmanycoreâ buys you more of the performance metrics that
+matter.
+Sounds convincing.  But also sounds hard to program.</p>
+<h3 id='p-6'>Performance Counters</h3>
+<p>Historically, some CPUs have had them, but theyâve been low-priority
+features that got triaged out when the designers had their back to the
+wall.</p>
+<p>Which is just silly.  Theyâre easy to design, they donât slow things down,
+and in a processor whose design is getting increasingly complex along multiple
+dimensions, itâs just not reasonable to ask software designers to live without
+them. JIT compilers can use them, big-time.   As the study points out, ideally
+youâd like existing programs (existing <em>binaries</em>, even) to run faster
+on complex parallel hardware, and without hard data about where the cycles are
+going, youâre pushing a hard problem very near the border of âimpossibleâ.</p>
+<h3 id='p-7'>Human Results</h3>
+<p>The full title of the section is <cite>Programming model efforts inspired
+by psychological research</cite>, but thatâs a little misleading.  If I
+understand correctly, what they mean is: Study the effectiveness of different
+programming models by measuring the results delivered by actual real human
+programmers who use them.</p>
+<p>Well, dâoh.  Anyone whoâs sat in a bar with a bunch of heavy AOP or 
+Lisp wankers will sign up for this one in a flash.   Me, I
+do know quite a bit about programming models <em>and</em> I know what I like,
+but I donât think Iâm smart enough to predict whatâs going to empower developers to
+deliver, whether your efficiency metric revolves around programmer time or CPU
+time.</p> 
+<p>So letâs, you know, do the experiments and learn from whatever it is they
+tell us?   Yes, controlling for all the variables will be hard.  In fact,
+there may be some flashes of genius required in pulling together the
+experimental methodology. But important science isnât supposed to be easy.</p>
+<h2 id='p-8'>Unconvincing</h2>
+<p>Mother always said âIf you canât find anything nice to say, donât say
+anything.â  But this is Science, so that doesnât apply.</p>
+<h3 id='p-9'>Dwarfs</h3>
+<p>The study supposes that if you could partition the universe of programming
+problems into a few equivalence classes, then by optimizing your system design
+for one or more of these classes you could optimize it for the problems that
+fall into those baskets.  Which sounds plausible.  They call their baskets
+âDwarfsâ because they started with seven of them (the number grew to
+thirteen).</p>
+<p>Personally, I think all these basket-weaving Dwarfs could be subtracted
+from the study without loss of value.  The majority of them apply to
+particular sub-disciplines of scientific computing; for example, the first
+three are Dense Linear Algebra, Sparse Linear Algebra, and Spectral Methods.
+Important stuff for 
+people who do Scientific Computing, which is itself important stuff.</p>
+<p>But I do
+Web computing, which constitutes a not-insignificant proportion of all
+computing, and when I consider which Dwarfs I ought to care about, well, Iâm
+not sure.  The wiki is a little more helpful than the paper itself, and my
+best guess is that I ought to care about
+<a href="http://view.eecs.berkeley.edu/wiki/Graph_Traversal">Graph
+Traversal</a> and
+<a href="http://view.eecs.berkeley.edu/wiki/Finite_State_Machines">Finite
+State Machines</a>.</p>
+<p>The first suggests that a lot of this computing depends on random memory
+access latency, which accords well with my intuitions.  But Iâm not sure that
+all those hypothetical dwarfs were a good way to establish this.</p>
+<h3 id='p-10'>Data Types and Characters</h3>
+<p>The discussion data sizes and types, as they appear in programming models,
+seems really weak to me.  Iâm offended that in 2007 intelligent people would
+still suggest either that an 8-bit datum is suitable for representing a
+character, or that a 16-bit datum is suitable for representing a Unicode
+character.</p>
+<p>Also, they suggest direct support for âLarge Integer (> 128 bits)â; but
+this is hardly news.
+Every programming language in the world has this, one way or another; in many of them
+(Smalltalk and Ruby at least) itâs built-in to Integer and transparent to the
+programmer.  Last time I suggested this might be inefficient I was gently but
+firmly corrected by Avi Bryant.</p>
+<h2 id='p-11'>Missing In Action</h2>
+<p>The paper has surprisingly little to say about what I think is the central
+program: what interface should the programmer use when dealing with multicore
+or âmanycoreâ systems?  [Oops, in fact it says one
+profoundly important thing as I noted <a href="#p-7">above</a>: we ought to
+measure the effectiveness of competing approaches to parallelism by measuring
+the empirical results achieved with them by programmers].
+I had hoped for a bit more insight or some
+research results in this space.  They do note that  Software Transactional
+Memory is expensive and suggest that with hardware support, it might become
+very interesting; but thatâs about all.</p>
+<p>It seems that, based on the evidence we have right now, we can draw two
+firm conclusions:</p>
+<ol>
+<li><p>Conventional thread-based concurrency is âtoo hardâ for the general
+population of programmers.</p></li>
+<li><p>The combination of functional programming and message-passing (as in
+Erlang or MapReduce) makes astoundingly good use of parallel systems and may
+well be usable by the average programmer.</p></li>
+</ol>
+<p>Thus, my question: is there anything between #1 and #2?
+Who knows the answer?</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/12/'>
+ <title>Telnet SNAFU from the Inside</title>
+ <link href='Telnet-Snafu' />
+ <link rel='replies'        thr:count='2'        type='application/xhtml+xml'        href='Telnet-Snafu#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/12/Telnet-Snafu</id>
+ <published>2007-02-12T12:00:00-08:00</published>
+ <updated>2007-02-12T21:26:28-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Solaris' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Solaris' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Security' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Security' />
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Well, yes, there was that embarrassing mile-wide hole in telnet (I
+havenât used telnet in years except to debug Web protocols, but I guess
+someone must; seems to me anyone who leaves telnetd facing the Internet is
+exhibiting, uh, questionable judgment; but still.)  Nasty security gotchas are
+nothing new in this world, but hereâs something that is new: a
+<a href="http://blogs.sun.com/tpenta/entry/the_in_telnetd_vulnerability_exploit">first-hand report</a> from the guy who got the 
+call you donât want to get, and then got the patch into the system.  Actually, I donât
+understand quite a bit of the jargon: âpatch gateâ, âRTI loggingâ, and so on;
+but itâs still a compelling story.</p>
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/11/'>
+ <title>Rails and Joyent</title>
+ <link href='Joyent-loves-Rails' />
+ <link rel='replies'        thr:count='0'        type='application/xhtml+xml'        href='Joyent-loves-Rails#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/11/Joyent-loves-Rails</id>
+ <published>2007-02-11T12:00:00-08:00</published>
+ <updated>2007-02-12T11:08:29-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Ruby' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Ruby' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Solaris' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Solaris' />
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Last week, I read about Joyent 
+<a href="http://joyeur.com/2007/02/04/a-brief-update-with-some-numbers-for-hardware-load-balanced-mongrels">running
+four thousand Rails requests per second</a> with a hardware load balancer fronting
+six of their
+<a href="http://textdrive.com/hosting/accelerator">Accelerator</a> thingies.
+Then yesterday it
+<a href="http://weblog.rubyonrails.org/2007/2/10/shiny-new-subversion-and-trac-cluster">turned out</a> that 
+<a href="http://svn.rubyonrails.org/rails/">svn.rubyonrails.org/rails</a>,
+the new Rails development cluster, is at TextDrive too.  Under my Sun hat Iâm
+happy that Solaris is apparently behind the worldâs highest-performance Rails
+installation and is supporting both
+<a href="/ongoing/When/200x/2006/12/21/Ruby-Server">Ruby 1.9</a> and Rails development.
+My take-away, though, is that the more I hear about Joyent, the more
+interesting they look.</p> 
+</div></content></entry>
+
+<entry xml:base='When/200x/2007/02/11/'>
+ <title>Microsoft</title>
+ <link href='Microsoft' />
+ <link rel='replies'        thr:count='9'        type='application/xhtml+xml'        href='Microsoft#comments' />
+ <id>http://www.tbray.org/ongoing/When/200x/2007/02/11/Microsoft</id>
+ <published>2007-02-11T12:00:00-08:00</published>
+ <updated>2007-02-11T22:07:59-08:00</updated>
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology/Microsoft' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Technology' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Microsoft' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business' />
+ <category scheme='http://www.tbray.org/ongoing/What/' term='Business' />
+<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+<p>Last week I spent time talking to a lot of different technology
+people, from all over the world geographically and organizationally and culturally.
+The conversation kept looping back to Microsoft, and to
+the same sentiment: <em>Theyâve lost their mojo.</em>  Lots of people will end
+up using Vista, but does anyone <em>care</em>?  The Microsoft execs look
+haggard and joyless, and half the interviews feel phoned-in.  Thereâs real
+innovation in the Office UI, and everyone says âBut itâs OK, the old keyboard
+shortcuts still workâ.  The advertising campaign is vapid and lame, but then
+thatâs nothing new; they havenât run an effective one in years.   Iâm sure
+that Microsoft can come back, the way IBM did after their bad patch last
+century; maybe the energy is building in a building in Redmond where nobodyâs
+looking.  Iâve never liked Microsoft, but now I realize how much energy they
+used to inject into the ecosystem, because itâs not there any more and I miss it.</p>
+</div></content></entry>
+
+</feed>

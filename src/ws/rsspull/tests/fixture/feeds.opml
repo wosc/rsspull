@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<opml version="1.1">
+  <head>
+    <title>feeds.opml</title>
+    <ownerName>Wolfgang Schnerring</ownerName>
+    <ownerEmail>wosc+rss@localhost</ownerEmail>
+  </head>
+  <body>
+    <outline text="tech">
+      <outline text="ongoing" xmlUrl="http://www.tbray.org/ongoing/ongoing.atom" />
+    </outline>
+    <outline text="general">
+      <outline text="heisec" xmlUrl="http://www.heise.de/security/news/news.rdf" />
+      <outline text="Trac Example" xmlUrl="https://example.com/trac/timeline?milestone=on&amp;ticket=on&amp;changeset=on&amp;wiki=on&amp;max=10&amp;daysback=90&amp;format=rss" auth="user:password"/>
+    </outline>
+  </body>
+</opml>

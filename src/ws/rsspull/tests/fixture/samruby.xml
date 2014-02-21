@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0">
+  <link rel="self" href="http://www.intertwingly.net/blog/index.atom"/>
+  <id>http://www.intertwingly.net/blog/index.atom</id>
+  <icon>../favicon.ico</icon>
+
+  <title>Sam Ruby</title>
+  <subtitle>It’s just data</subtitle>
+  <author>
+    <name>Sam Ruby</name>
+    <email>rubys@intertwingly.net</email>
+    <uri>.</uri>
+  </author>
+  <updated>2007-03-31T01:09:04-04:00</updated>
+  <link href="."/>
+
+  <entry>
+    <id>tag:intertwingly.net,2004:2530</id>
+    <link href="2007/03/29/The-Cost-of-Independence"/>
+    <link rel="replies" href="2530.atom" thr:count="9" thr:updated="2007-03-30T15:45:15-04:00"/>
+    <title>The Cost of Independence</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://blog.whatfettle.com/2007/03/29/show-me-the-interoperability/">Paul Downey</a>: <em>If the reason you’re using WS-* is interoperability with tools, then it could be time to rethink that new legacy you’re building.</em></p>
+<p>Even <a href="http://developer.yahoo.com/mail/code/">this</a> doesn’t tell the whole story.</p></div></summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><div style="width:6.25em; height:6.25em; float:right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <path d="M10,90.1v-2h80V90.1zM10,70.1v-2h80V70.1zM10,50.1v-2h80V50.1zM10,30.1v-2h80V30.1zM10,10.1v-2h80V10.1z"/>
+  <path d="M44.4,20.8c1.5,1.6,13,15.7,13,15.7s-6.4,6.1-6.4,12.5c0,7.5,8.6,14.3,8.6,14.3l-0.9,1.1c-3.3-1.9-8.9-2.1-11.4,0.8c-3.1,3.6,3.9,9.1,3.9,9.1l-0.8,1.1c-2.4-1.8-12.6-11.4-8.3-16.1c2.6-2.9,5.8-3.8,10.3-1.4l-12.1-12.5c7-8.6,8.2-11.1,8.2-13.4c0-4.8-3.4-8.2-5.1-10.4c-0.6-0.9-1.7-1.6-1-2.2C43.1,18.9,43.5,19.7,44.4,20.8z" fill="#F33"/>
+</svg></div>
+<p><a href="http://blog.whatfettle.com/2007/03/29/show-me-the-interoperability/"><cite>Paul Downey</cite></a>: <em>If the reason you’re using WS-* is interoperability with tools, then it could be time to rethink that new  legacy you’re building.</em></p>
+<p>Even <a href="http://developer.yahoo.com/mail/code/">this</a> doesn’t tell the whole story.</p>
+<p>From the <a href="http://developer.yahoo.com/mail/docs/html/wwhelp/wwhimpl/common/html/wwhelp.htm?context=yMail&amp;file=Overview.3.1.html#1569615">documentation</a>:</p>
+<blockquote class="quote"><p>Use WSDL to construct your SOAP client. Even though a service endpoint URL is indicated in the WSDL, you must provide a location URL to your SOAP toolkit. This is necessary to transmit the application ID and the WSSID. In addition, you must set the cookie header containing the cookie that was returned with the WSSID when you credentialed the user in the previous step.
+</p></blockquote>
+<p>Cookies aren’t transport level independent.  Heck, they are controversial even in HTTP.  Do the developers of the Yahoo! Mail Web Service APIs care that they are making choices that may make it difficult to “port” this to a different transport layer than HTTP?  I guess not.  If I were in their shoes, I doubt I would either.</p>
+<p>Looking at the <a href="http://developer.yahoo.com/mail/code/mail_java.zip">Java example</a>, we find the following comment:</p>
+<blockquote class="quote"><p>Axis2 requires you to jump through some hoops to set a cookie on the SOAP proxy.
+</p></blockquote>
+<p>Can this same service be implemented using the JAX-WS (nee JAX-RPC) <a href="https://jax-ws.dev.java.net/">reference implementation</a>?  Would such an implementation, if indeed it were possible, be portable?</p>
+<p>In not completely unrelated news, O’Reilly has <a href="http://www.crummy.com/2007/03/28/1">issued a mascot</a> for the RESTful Web Services book that I have been contributing to.</p>
+<p><b>Update</b>: <a href="http://www.intertwingly.net/blog/2007/03/29/The-Cost-of-Independence#c1175183095">Dims links to</a> an Axis-specific interface that Yahoo!’s example could have used.</p></div></content>
+    <published>2007-03-29T07:41:32-04:00</published>
+    <updated>2007-03-29T13:29:59-04:00</updated>
+  </entry>
+
+  <entry>
+    <id>tag:intertwingly.net,2004:2529</id>
+    <link href="2007/03/27/Cloaking-Planets"/>
+    <link rel="replies" href="2529.atom" thr:count="3" thr:updated="2007-03-27T15:14:39-04:00"/>
+    <title>Cloaking Planets</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://lists.planetplanet.org/archives/devel/2007-March/001477.html">Jeff Waugh</a>: <em>Technorati so exuberantly lets me know that Planet Intertwingly and Planet GNOME have linked to my blog whenver I have a new entry... ;-)</em></p>
+<p>Two possible solutions.</p></div></summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><div style="width:5.0em; height:7.8125em; float:right"><svg xmlns="http://www.w3.org/2000/svg" stroke="#d36" viewBox="0 0 80 125">
+  <path d="M40,73v50" stroke-width="11"/>
+  <path d="M17,98l47,0" stroke-width="8"/>
+  <circle r="33" cx="40" cy="40" fill="none" stroke-width="12"/>
+</svg></div>
+<p><a href="http://lists.planetplanet.org/archives/devel/2007-March/001477.html"><cite>Jeff Waugh</cite></a>: <em>Technorati so exuberantly lets me know that Planet Intertwingly and Planet GNOME have linked to my blog whenver I have a new entry... ;-)</em></p>
+<p>Two possible solutions:</p>
+<ul>
+<li>employ a number of <a href="http://www.intertwingly.net/code/venus/docs/etiquette.html">diverse techniques</a> to indicate that the content in the planet is not to be indexed.</li>
+<li>change Technorati to take advantage of the <a href="http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.source">atom:source</a> information in the Planet feed (<a href="http://planet.intertwingly.net/atom.xml">example</a>) to properly attribute the original source of each entry.</li>
+</ul>
+
+<p><a href="http://lists.planetplanet.org/archives/devel/2007-March/001485.html">David Sifry</a> has his engineering teem looking into this.</p>
+<p>In the process, I added support for the <a href="http://www.ietf.org/internet-drafts/draft-snell-atompub-feed-license-11.txt">Atom License Extension</a> to the <a href="http://nightly.feedparser.org/docs/reference-entry-license.html">nightly version of the Universal Feed Parser</a>, and to Venus.</p></div></content>
+    <updated>2007-03-27T10:26:36-04:00</updated>
+  </entry>
+
+  <entry>
+    <id>tag:intertwingly.net,2004:2528</id>
+    <link href="2007/03/23/Which-Way-Is-Up"/>
+    <link rel="replies" href="2528.atom" thr:count="18" thr:updated="2007-03-25T07:34:44-04:00"/>
+    <title>Which Way Is Up?</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://googlemapsapi.blogspot.com/2007/03/kml-and-georss-support-added-to-google.html">Nigel Tao</a>: <em>we now support <a href="http://www.georss.org/">GeoRSS</a> as a data format for geographic content in Google Maps.  We want to enable users to create data in whatever format is most convenient for them, and feel that by supporting both KML and GeoRSS we can enable a wider variety of people and applications to contribute content to Google Maps.  We’ve built support for the Simple, GML, and W3C Geo encodings of GeoRSS — all you have to do is enter the full URL of a GeoRSS file into the Maps query box to load the file.  For example, take a look at <a href="http://maps.google.com/maps?q=http://slashgeo.org/index.rss">SlashGeo’s GeoRSS on Google Maps</a>.</em></p>
+<p>And thus begins the journey...</p></div></summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><div style="width:6.25em; height:6.25em; float:right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <path d="M25,7l28,36l40-18l-36,25l19,44l-27-37l-41,17l36-26z" fill="#cfc"/>
+  <ellipse cx="50" cy="50" rx="32" ry="30" stroke="#fc0" fill="none" stroke-width="11"/>
+  <path d="M63,2l-7,43l42,17l-45-6l-16,42l7,-45l-42-16l45,6z" fill="#3cc"/>
+</svg></div>
+<p><a href="http://googlemapsapi.blogspot.com/2007/03/kml-and-georss-support-added-to-google.html"><cite>Nigel Tao</cite></a>: <em>we now support <a href="http://www.georss.org/">GeoRSS</a> as a data format for geographic content in Google Maps.  We want to enable users to create data in whatever format is most convenient for them, and feel that by supporting both KML and GeoRSS we can enable a wider variety of people and applications to contribute content to Google Maps.  We’ve built support for the Simple, GML, and W3C Geo encodings of GeoRSS — all you have to do is enter the full URL of a GeoRSS file into the Maps query box to load the file.  For example, take a look at <a href="http://maps.google.com/maps?q=http://slashgeo.org/index.rss">SlashGeo’s GeoRSS on Google Maps</a>.</em></p>
+<p>That support is certainly cool, but <a href="http://www.georss.org/">GeoRSS</a> was news to me, and the <a href="http://feedvalidator.org/">Feed Validator</a> previously only supported the <a href="http://www.w3.org/2003/01/geo/">W3C Geo</a> encoding, so I added the <a href="http://www.georss.org/gml.html#gmlpoint">examples from the GeoRSS documentation</a> as an <a href="http://feedvalidator.org/testcases/ext/georss/">initial set of test cases</a> and set off to add support to the validator.  And thus begins the journey...</p>
+<p>Doubling back to validate the SlashGeo feed, and the <a href="http://feedvalidator.org/check.cgi?url=http%3A%2F%2Fslashgeo.org%2Findex.rss">result</a> is two warnings.  The first represents the transplanting of the controversial RSS 2.0 practice of double encoding titles as HTML — which is discouraged by a number of Google, Microsoft, and Mozilla tools — into the context of RSS 1.0.  The second is the use of a comma as a separator for latitude and longitude values, where the spec <a href="http://www.georss.org/simple.html#Point">requires whitespace</a>.  Another place in the spec <a href="http://www.georss.org/gml.html#gmlpoint">requires a [single?] space</a>.  A third place in the documentation indicates that the <a href="http://www.georss.org/model.html">preferred serialization of this uses a [single?] space to separate the two values</a>.</p>
+<blockquote><p><b>Update</b>: this latter issue <a href="http://industry.slashgeo.org/comments.pl?sid=1850&amp;cid=1341">has been addressed</a> in the slashgeo feed.  Thanks!</p></blockquote>
+<p>OK, but the SlashGeo feed is not only supported by Google, but held up as an exemplar, so I’ve downgraded the message that is produced when a comma appears where a space ought to be <a href="http://feedvalidator.org/docs/warning/CoordComma.html">to a warning</a>.</p>
+<p>So, just when I think I’m done, and get ready to commit these changes, I find this:</p>
+<p><a href="http://simonwillison.net/2007/Mar/23/cheese/">Simon Willison</a>: <em><a href="http://maps.google.co.uk/maps?f=q&amp;hl=en&amp;q=http://api.flickr.com/services/feeds/photos_public.gne%3Fid%3D35034346572%40N01%26tags%3Dcheese%26format%3Drss_200%26georss%3D1&amp;layer=&amp;ie=UTF8&amp;z=16&amp;ll=51.5186">My photos tagged “cheese” on a Google Map</a>. You can paste a Flickr GeoRSS feed directly in to the Google Maps query box</em></p>
+<p><a href="http://feedvalidator.org/check.cgi?url=http%3A%2F%2Fapi.flickr.com%2Fservices%2Ffeeds%2Fphotos_public.gne%3Fid%3D35034346572%40N01%26tags%3Dcheese%26format%3Drss_200%26georss%3D1">Validating that feed</a> produces two errors.</p>
+<p>For starters, does anybody know where <code>dc:date.Taken</code> is defined?  If there is documentation, I will add support for it in the Feed Validator.</p>
+<blockquote><p><b>Update</b>: as spotted by <a href="http://www.intertwingly.net/blog/2007/03/23/Which-Way-Is-Up#c1174673805">Kevin H</a>, this is valid "Qualified" Dublin Core, and I’ve updated the feed validator to accept it.</p></blockquote>
+<p>But the more interesting one is the second error.  It points to <code>georss:point</code> and says that <code>geo:point</code> is undefined.  Looking further, we find that while the <a href="http://www.georss.org/gml.html#examples">GeoRSS spec suggests</a>:</p>
+<pre class="code">xmlns:<b>georss</b>="http://www.georss.org/georss"</pre>
+<p>and the <a href="http://www.w3.org/2003/01/geo/#example">W3C Geo spec suggests</a>:</p>
+<pre class="code">xmlns:geo="<b>http://www.w3.org/2003/01/geo/wgs84_pos#</b>"</pre>
+<p>... the <a href="http://api.flickr.com/services/feeds/photos_public.gne?id=35034346572@N01&amp;tags=cheese&amp;format=rss_200&amp;georss=1">Flickr feed</a> contains a mashup of these two:</p>
+<pre class="code">xmlns:<b>georss</b>="<b>http://www.w3.org/2003/01/geo/wgs84_pos#</b>"</pre>
+<p>These two namespaces aren’t compatible.  The W3C Geo spec defines a <code>Point</code> with a capital <em>P</em> and utilizes nested child elements (per <a href="http://www.w3.org/2003/01/geo/#example">this example</a>), and Simple GeoRSS defines a <code>point</code> with a lowercase <em>p</em>, and omits the child elements (<a href="http://www.georss.org/simple.html">per this example</a>).</p>
+<p>If anybody can shed any further light on this, please either leave a comment here or on the <a href="https://lists.sourceforge.net/lists/listinfo/feedvalidator-users">feedvalidators-users mailing list</a>; the latter I am seriously considering shutting down and moving the whole Feed Validator project to <a href="http://code.google.com/">Google Code</a> as the mailinglist is being overrun by spammers.</p></div></content>
+    <published>2007-03-23T09:59:01-04:00</published>
+    <updated>2007-03-24T08:00:41-04:00</updated>
+  </entry>
+
+  <entry>
+    <id>tag:intertwingly.net,2004:2527</id>
+    <link href="2007/03/22/Ruby-on-Rails-ibm-db-adapter-Release-0-4-0"/>
+    <link rel="replies" href="2527.atom" thr:count="3" thr:updated="2007-03-26T08:15:15-04:00"/>
+    <title>Ruby on Rails ibm_db_adapter Release 0.4.0</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><a href="http://rubyforge.org/projects/rubyibm/">RubyForge</a>: <em>The IBM_DB Rails Plugin and Ruby gem provide Rails/Ruby interfaces for IBM Data Servers. The Ruby adapter and driver are developed and supported by IBM. The adapter and driver currently supports DB2 on Linux/Unix/Windows, <b>DB2 for i5 and DB2 for zOS</b>.</em></div></summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><div style="width:6.25em; height:6.25em; float:right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <path d="M16,22l40,-14l33,28l-10,42l-40,14l-32-28z" stroke="#000" stroke-width="2" fill="#e82323"/>
+  <path d="M19,25l36,-12l28,24 c-12,49 -45,-15 -62,32 l-10-6z" fill="#edc6c6"/>
+</svg></div>
+<p><a href="http://rubyforge.org/projects/rubyibm/"><cite>RubyForge</cite></a>: <em>The IBM_DB Rails Plugin and Ruby gem provide Rails/Ruby interfaces for IBM Data Servers. The Ruby adapter and driver are developed and supported by IBM. The adapter and driver currently supports DB2 on Linux/Unix/Windows, DB2 for i5 and DB2 for zOS.</em></p>
+<p>From the README:</p>
+<ul>
+<li>Support added for remote connectivity to DB2 zOS version 8</li>
+<li>Support added for remote connectivity to DB2 i5 v5r3 and v5r4</li>
+<li>Better support for Migrations (added change_column method)</li>
+<li>Support for setting and retrieving values for client attributes (user, account, application, workstation)</li>
+</ul></div></content>
+    <updated>2007-03-22T08:52:30-04:00</updated>
+  </entry>
+
+  <entry>
+    <id>tag:intertwingly.net,2004:2526</id>
+    <link href="2007/03/19/Automatic-Preview"/>
+    <link rel="replies" href="2526.atom" thr:count="8" thr:updated="2007-03-25T02:18:23-04:00"/>
+    <title>Automatic Preview</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://www.intertwingly.net/blog/2007/03/18/Live-Comment-Preview#c1174235671">Jacques Distler</a>: <em>It seems rather odd to have both a live preview and a forced-preview.</em></p>
+<p>My <a href="http://www.intertwingly.net/blog/2004/01/06/Preview-required">required preview</a> is a part of my spam prevention strategy, and is intertwined with my issuances of <a href="http://www.intertwingly.net/blog/2003/09/04/Nonce">nonces</a> and <a href="http://www.intertwingly.net/blog/2006/05/30/Captcha-this">captchas</a>; neither of which are typically seen by humans.</p>
+<p>So... why not take it to the next step?</p></div></summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><div style="width:6.25em; height:6.25em; float:right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs xmlns:xl="http://www.w3.org/1999/xlink">
+    <radialGradient id="s1" fx=".4" fy=".2" r=".7">
+      <stop stop-color="#FE8"/><stop stop-color="#D70" offset="1"/>
+    </radialGradient>
+    <radialGradient id="s2" fx=".8" fy=".5" xl:href="#s1"/>
+    <radialGradient id="s3" fx=".5" fy=".9" xl:href="#s1"/>
+    <radialGradient id="s4" fx=".1" fy=".5" xl:href="#s1"/>
+  </defs>
+  <g stroke="#940">
+    <path d="M73,29c-37-40-62-24-52,4l6-7c-8-16,7-26,42,9z" fill="url(#s1)"/>
+    <path d="M47,8c33-16,48,21,9,47l-6-5c38-27,20-44,5-37z" fill="url(#s2)"/>
+    <path d="M77,32c22,30,10,57-39,51l-1-8c3,3,67,5,36-36z" fill="url(#s3)"/>
+    <path d="M58,84c-4,20-38-4-8-24l-6-5c-36,43,15,56,23,27z" fill="url(#s4)"/>
+    <path d="M40,14c-40,37-37,52-9,68l1-8c-16-13-29-21,16-56z" fill="url(#s1)"/>
+    <path d="M31,33c19,23,20,7,35,41l-9,1.7c-4-19-8-14-31-37z" fill="url(#s2)"/>
+  </g>
+</svg></div>
+<p><a href="http://www.intertwingly.net/blog/2007/03/18/Live-Comment-Preview#c1174235671"><cite>Jacques Distler</cite></a>: <em>It seems rather odd to have both a live preview and a forced-preview.</em></p>
+<p>My <a href="http://www.intertwingly.net/blog/2004/01/06/Preview-required">required preview</a> is a part of my spam prevention strategy, and is intertwined with my issuances of <a href="http://www.intertwingly.net/blog/2003/09/04/Nonce">nonces</a> and <a href="http://www.intertwingly.net/blog/2006/05/30/Captcha-this">captchas</a>; neither of which are typically seen by humans.</p>
+<p>So... why not take it to the next step?  If JavaScript is enabled, and the browser is suitably standards compliant, why not automatically prefetch the nonce, captcha, and any warnings that may apply; and insert them (as well as a Submit button) into the page?</p>
+<p>All I need is to have a data structure that contains all this information, in a format that is easy to parse.  It turns out that I already do: the preview page itself.  As it is XHTML, it is XML, and therefore amenable to <a href="http://developer.mozilla.org/en/docs/XPath">XPath</a>.  And in many cases the information is already in the right form, it merely needs to be <a href="http://developer.mozilla.org/en/docs/DOM:document.importNode">imported</a>.  In fact, it turned out to be ridiculously easy to implement.  I trigger based on the first character typed into the textarea.</p>
+<p>I’ve tested it on Mozilla and Opera.  If you want to try it, you might need to refresh once to pick up the latest scripts.</p>
+<p>Next up (with no particular schedule): live preview right on the comment page; and periodically polling of the comment page and the importation of any new comments that may have been posted while you are composing your comment, though this may only work properly on browsers that <a href="http://ablog.apress.com/?p=981">understand ETags</a> when used in combination with XMLHttpRequest.  Mark Nottingham has a <a href="http://www.mnot.net/javascript/xmlhttprequest/cache.html">series of tests</a> that you can point your browser at.</p>
+<p><b>Update:</b> initial implementation of live preview and polling for new comments has now been deployed.</p></div></content>
+    <published>2007-03-19T22:05:59-04:00</published>
+    <updated>2007-03-23T12:09:02-04:00</updated>
+  </entry>
+
+</feed>
+
