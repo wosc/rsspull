@@ -37,9 +37,13 @@ class Maildir(object):
 
         if create and not access(path):
             os.mkdir(path)
+            os.chmod(path, 0777)
             os.mkdir(subdir_cur)
+            os.chmod(subdir_cur, 0777)
             os.mkdir(subdir_new)
+            os.chmod(subdir_new, 0777)
             os.mkdir(subdir_tmp)
+            os.chmod(subdir_tmp, 0777)
             maildir = True
         else:
             maildir = (os.path.isdir(subdir_cur) and os.path.isdir(subdir_new)
@@ -80,7 +84,8 @@ class Maildir(object):
                                       random.randrange(randmax))
             filename = join(subdir_tmp, unique)
             try:
-                fd = os.open(filename, os.O_CREAT|os.O_EXCL|os.O_WRONLY, 0600)
+                fd = os.open(filename, os.O_CREAT|os.O_EXCL|os.O_WRONLY, 0666)
+                os.chmod(filename, 0666)
             except OSError, e:
                 if e.errno != errno.EEXIST:
                     raise
