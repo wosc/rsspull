@@ -4,7 +4,7 @@ CHANGES
 2.0 (unreleased)
 ----------------
 
-- Switch from spawning curl to simply using urllib2.
+- Switch from spawning curl to using urllib2.
 
 - Package as egg.
 
