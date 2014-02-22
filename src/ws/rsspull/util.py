@@ -2,7 +2,6 @@ from html2text import html2text
 from htmlentitydefs import entitydefs
 import email.Header
 import logging
-import os
 import re
 
 
@@ -54,11 +53,11 @@ def header(text):
     return str(email.Header.make_header([(text, 'utf-8')]))
 
 
-def setupLogging(directory=None):
+def setupLogging(logfile='log'):
     root = logging.getLogger()
     root.setLevel(logging.DEBUG)
 
-    logfile = logging.FileHandler(os.path.join(directory, 'log'))
+    logfile = logging.FileHandler(logfile)
     logfile.setLevel(logging.INFO)
     logfile.setFormatter(logging.Formatter('%(asctime)s %(message)s'))
     root.addHandler(logfile)

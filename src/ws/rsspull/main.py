@@ -30,7 +30,8 @@ def rsspull(confdir):
     Feed.workdir = os.path.join(confdir, 'cache')
     Feed.maildir = config.get('global', 'maildir')
 
-    ws.rsspull.util.setupLogging(confdir)
+    ws.rsspull.util.setupLogging(os.path.expanduser(
+        config.get('global', 'logfile')))
     log = logging.getLogger(__name__)
     log.info('Reading feed configuration from %s' % confdir)
     feeds = Feed.parseOPML(os.path.join(confdir, 'feeds.opml'))

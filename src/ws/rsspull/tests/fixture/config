@@ -1,4 +1,4 @@
 [global]
-recipient = "wosc@localhost"
 workers = 4
 maildir = work/Maildir
+logfile = work/log
