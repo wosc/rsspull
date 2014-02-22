@@ -192,14 +192,14 @@ class Feed(object):
             if isinstance(e, urllib2.HTTPError) and e.code == 304:
                 # not modified
                 return
-            raise RuntimeError('downloading %s from %s failed: %s' % (
+            raise RuntimeError('Downloading %s from %s failed: %s' % (
                 self.name, self.url, str(e)))
         if response.code == 304:
             return
         if response.code == 200 or response.code is None:
             open(self.file, 'w').write(response.read())
         else:
-            raise RuntimeError('downloading %s from %s failed: %s' % (
+            raise RuntimeError('Downloading %s from %s failed: %s' % (
                 self.name, self.url, response.read()))
 
     def updated(self):
