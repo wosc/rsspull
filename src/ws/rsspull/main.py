@@ -28,7 +28,6 @@ def rsspull(confdir):
     config = ConfigParser.ConfigParser()
     config.read(os.path.join(confdir, 'config'))
     Feed.workdir = os.path.join(confdir, 'cache')
-    Feed.recipient = config.get('global', 'recipient')
     Feed.maildir = config.get('global', 'maildir')
 
     ws.rsspull.util.setupLogging(confdir)

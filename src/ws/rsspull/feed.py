@@ -129,8 +129,9 @@ class Entry(object):
 class Feed(object):
 
     workdir = None
-    recipient = None
     maildir = None
+
+    recipient = 'rsspull <rsspull@localhost>'
 
     @staticmethod
     def parseOPML(config):
