@@ -26,4 +26,4 @@ CHANGES
 1.0 (2007-03-31)
 ----------------
 
-- First release.
+- First release, inspired by http://newspipe.sourceforge.net/.
