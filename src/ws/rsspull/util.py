@@ -33,10 +33,10 @@ def expandNumEntities(text):
 
 def fixQuotes(text):
     text = text.replace(u'\u2026', '...')
-    text = text.replace(u'\u2018', ''')
-    text = text.replace(u'\u2019', ''')
-    text = text.replace(u'\u201C', ''')
-    text = text.replace(u'\u201D', ''')
+    text = text.replace(u'\u2018', '\'')
+    text = text.replace(u'\u2019', '\'')
+    text = text.replace(u'\u201C', '\'')
+    text = text.replace(u'\u201D', '\'')
     return text
 
 
