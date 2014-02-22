@@ -195,7 +195,7 @@ class Feed(object):
                 self.name, self.url, str(e)))
         if response.code == 304:
             return
-        if response.code == 200:
+        if response.code == 200 or response.code is None:
             open(self.file, 'w').write(response.read())
         else:
             raise RuntimeError('downloading %s from %s failed: %s' % (
