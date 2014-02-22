@@ -2,7 +2,6 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMENonMultipart import MIMENonMultipart
 from email.MIMEText import MIMEText
 from html2text import html2text
-from maildir import Maildir
 import datetime
 import email.utils
 import feedparser
@@ -12,6 +11,7 @@ import os
 import os.path
 import urllib2
 import urlparse
+import ws.rsspull.maildir
 import ws.rsspull.util
 import xml.dom.minidom
 
@@ -237,7 +237,8 @@ class Feed(object):
             log.exception(e)
 
     def send(self, email):
-        maildir = Maildir(os.path.join(self.maildir, self.name), create=True)
+        maildir = ws.rsspull.maildir.Maildir(
+            os.path.join(self.maildir, self.name), create=True)
         writer = maildir.newMessage()
         writer.write(email.as_string(unixfrom=True))
         writer.commit()
