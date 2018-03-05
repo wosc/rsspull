@@ -32,7 +32,8 @@ class FeedTest(unittest.TestCase):
 
     def test_not_updated_even_if_no_etag(self):
         # heise doesn't do ETAG
-        feed = Feed('heisec', 'http://www.heise.de/security/news/news.rdf')
+        feed = Feed(
+            'heisec', 'https://www.heise.de/security/rss/news-atom.xml')
 
         feed.download()
         self.assert_(feed.updated())

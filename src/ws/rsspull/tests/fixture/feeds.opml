@@ -10,7 +10,7 @@
       <outline text="ongoing" xmlUrl="http://www.tbray.org/ongoing/ongoing.atom" />
     </outline>
     <outline text="general">
-      <outline text="heisec" xmlUrl="http://www.heise.de/security/news/news.rdf" />
+      <outline text="heisec" xmlUrl="http://www.heise.de/security/rss/news-atom.xml" />
       <outline text="Trac Example" xmlUrl="https://example.com/trac/timeline?milestone=on&amp;ticket=on&amp;changeset=on&amp;wiki=on&amp;max=10&amp;daysback=90&amp;format=rss" auth="user:password"/>
     </outline>
   </body>
