@@ -9,7 +9,7 @@ import logging
 import md5
 import os
 import os.path
-import urllib2
+import requests
 import urlparse
 import ws.rsspull.maildir
 import ws.rsspull.util
@@ -148,7 +148,7 @@ class Feed(object):
 
                 auth = e.getAttribute('auth')
                 if auth != '':
-                    feed.auth = auth
+                    feed.auth = tuple(auth.split(':'))
         return feeds
 
     def __init__(self, name, url):
@@ -179,28 +179,23 @@ class Feed(object):
         if os.path.exists(self.file):
             headers['If-Modified-Since'] = email.utils.formatdate(
                 os.stat(self.file).st_mtime)
-        if self.auth:
-            headers['Authorization'] = 'Basic %s' % self.auth.encode('base64')
 
         log.info('Downloading %s <%s>' % (self.name, self.url))
 
         try:
             # XXX wrap in timeout?
-            response = urllib2.urlopen(
-                urllib2.Request(self.url, headers=headers), timeout=30)
+            response = requests.get(
+                self.url, headers=headers, auth=self.auth, timeout=30)
         except Exception, e:
-            if isinstance(e, urllib2.HTTPError) and e.code == 304:
-                # not modified
-                return
             raise RuntimeError('Downloading %s from %s failed: %s' % (
                 self.name, self.url, str(e)))
-        if response.code == 304:
+        if response.status_code == 304:
             return
-        if response.code == 200 or response.code is None:
-            open(self.file, 'w').write(response.read())
+        if response.status_code == 200:
+            open(self.file, 'w').write(response.text.encode('utf-8'))
         else:
             raise RuntimeError('Downloading %s from %s failed: %s' % (
-                self.name, self.url, response.read()))
+                self.name, self.url, response.text.encode('ascii', 'replace')))
 
     def updated(self):
         new = md5.new(open(self.file).read()).hexdigest()

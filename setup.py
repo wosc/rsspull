@@ -16,6 +16,7 @@ setup(
     install_requires=[
         'feedparser==4.1',
         'html2text<=3.0',
+        'requests',
         'setuptools',
     ],
 

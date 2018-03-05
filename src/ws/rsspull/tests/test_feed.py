@@ -52,7 +52,7 @@ class FeedTest(unittest.TestCase):
             'http://www.tbray.org/ongoing/ongoing.atom', feeds[0].url)
 
         self.assertEquals('Trac_Example', feeds[2].name)
-        self.assertEquals('user:password', feeds[2].auth)
+        self.assertEquals(('user', 'password'), feeds[2].auth)
         self.assert_(os.path.exists(os.path.join(
             self.tmpdir, 'Trac_Example.cache')))
 
