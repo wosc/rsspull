@@ -6,6 +6,12 @@ import tempfile
 import unittest
 
 
+try:
+    from email.Header import decode_header
+except ImportError:
+    from email.header import decode_header
+
+
 class FeedTest(unittest.TestCase):
 
     def setUp(self):
@@ -29,7 +35,9 @@ class FeedTest(unittest.TestCase):
         self.assertEquals('Moose Camp', entries[0].title)
 
         msg = entries[0].to_mail()
-        self.assertEquals('Moose Camp', msg['Subject'])
+        subject = decode_header(msg['Subject'])[0]
+        self.assertEquals(
+            'Moose Camp', subject[0].decode(subject[1] or 'ascii'))
         self.assertEquals('Tim Bray <rsspull@localhost>', msg['From'])
 
     def test_special_cases(self):
@@ -39,7 +47,6 @@ class FeedTest(unittest.TestCase):
             self.tmpdir)
         entries = feed.parse()
 
-        print entries[0].resolved_link
         self.assertEquals(0, entries[0].resolved_link.find(
             'http://www.intertwingly.net/blog'))
 

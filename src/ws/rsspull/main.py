@@ -1,11 +1,16 @@
 from ws.rsspull.feed import Feed
-import ConfigParser
-import Queue
 import logging
 import os
 import os.path
 import threading
 import ws.rsspull.util
+
+try:
+    from ConfigParser import ConfigParser
+    from Queue import Queue, Empty
+except ImportError:
+    from configparser import ConfigParser
+    from queue import Queue, Empty
 
 
 class Worker(threading.Thread):
@@ -19,13 +24,13 @@ class Worker(threading.Thread):
             try:
                 feed = self.queue.get_nowait()
                 feed.sendNewEntries()
-            except Queue.Empty:
+            except Empty:
                 break
 
 
 def rsspull(confdir):
     confdir = os.path.expanduser(confdir)
-    config = ConfigParser.ConfigParser()
+    config = ConfigParser()
     config.read(os.path.join(confdir, 'config'))
     Feed.workdir = os.path.join(confdir, 'cache')
     Feed.maildir = os.path.expanduser(config.get('global', 'maildir'))
@@ -44,7 +49,7 @@ def rsspull(confdir):
 
 
 def rsspull_parallel(feeds, worker_count):
-    queue = Queue.Queue(-1)
+    queue = Queue(-1)
     for feed in feeds:
         queue.put_nowait(feed)
 

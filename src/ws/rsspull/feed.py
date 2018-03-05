@@ -1,19 +1,32 @@
-from email.MIMEMultipart import MIMEMultipart
-from email.MIMENonMultipart import MIMENonMultipart
-from email.MIMEText import MIMEText
-from html2text import html2text
 import datetime
 import email.utils
 import feedparser
+import hashlib
 import logging
-import md5
 import os
 import os.path
 import requests
-import urlparse
+import sys
 import ws.rsspull.maildir
 import ws.rsspull.util
 import xml.dom.minidom
+
+try:
+    from email.MIMEMultipart import MIMEMultipart
+    from email.MIMENonMultipart import MIMENonMultipart
+    from email.MIMEText import MIMEText
+
+    from urlparse import urljoin
+
+    any_string_type = basestring
+except ImportError:
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.nonmultipart import MIMENonMultipart
+    from email.mime.text import MIMEText
+
+    from urllib.parse import urljoin
+
+    any_string_type = (str, bytes)
 
 
 USER_AGENT = ('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.2)'
@@ -38,17 +51,17 @@ class Entry(object):
             self.timestamp = datetime.datetime.now()
 
         hash = ''.join([self.link, self.title, self.feed.url])
-        self.hash = md5.new(hash.encode('utf-8', 'replace')).hexdigest()
+        self.hash = hashlib.md5(hash.encode('utf-8', 'replace')).hexdigest()
 
         # Hi, my name is Sam Ruby and I exercise any and all wrinkles
         # of the Atom protocol, thereby f***ing up everyone's parser
         self.resolved_link = self.link
         if self.resolved_link.find('http') != 0:
-            self.resolved_link = urlparse.urljoin(self.feed.link, self.link)
+            self.resolved_link = urljoin(self.feed.link, self.link)
         if self.resolved_link.find('http') != 0:
             try:
-                parent = filter(lambda l: l.rel == 'self', self.feed.links)[0]
-                self.resolved_link = urlparse.urljoin(parent.href, self.link)
+                parent = [x for x in self.feed.links if x.rel == 'self'][0]
+                self.resolved_link = urljoin(parent.href, self.link)
             except IndexError:
                 pass
 
@@ -82,12 +95,15 @@ class Entry(object):
         body = self.body
         body = ws.rsspull.util.expandNumEntities(body)
         body = ws.rsspull.util.fixQuotes(body)
-        body = html2text(body).strip()
+        body = ws.rsspull.util.html2text(body).strip()
         body += '\n\n' + 'Link: [ ' + self.resolved_link + ' ]\n'
 
         text_part = MIMEText(body.encode('utf-8'), 'plain', 'utf-8')
         html_part = MIMENonMultipart('text', 'html', charset='utf-8')
-        html_part.set_payload(self.body.encode('utf-8'))
+        html_body = self.body
+        if sys.version_info < (3,):
+            html_body = html_body.encode('utf-8')
+        html_part.set_payload(html_body)
 
         message.attach(text_part)
         message.attach(html_part)
@@ -103,20 +119,20 @@ class Entry(object):
                 pass
 
     def _value(self, x):
-        if isinstance(x, basestring):
+        if isinstance(x, any_string_type):
             return x
         elif isinstance(x, list):
             try:
                 return x[0]['value']
-            except:
+            except Exception:
                 return ''
         else:
             return ''
 
     def setSeen(self, seen):
         if seen:
-            fd = open(self.feed.cache, 'a')
-            fd.write('%s %s\n'.encode('utf8') % (self.hash, self.link))
+            fd = open(self.feed.cache, 'ab')
+            fd.write(('%s %s\n' % (self.hash, self.link)).encode('utf8'))
             fd.close()
 
     def getSeen(self):
@@ -186,20 +202,20 @@ class Feed(object):
             # XXX wrap in timeout?
             response = requests.get(
                 self.url, headers=headers, auth=self.auth, timeout=30)
-        except Exception, e:
+        except Exception as e:
             raise RuntimeError('Downloading %s from %s failed: %s' % (
                 self.name, self.url, str(e)))
         if response.status_code == 304:
             return
         if response.status_code == 200:
-            open(self.file, 'w').write(response.text.encode('utf-8'))
+            open(self.file, 'wb').write(response.text.encode('utf-8'))
         else:
             raise RuntimeError('Downloading %s from %s failed: %s' % (
                 self.name, self.url, response.text.encode('ascii', 'replace')))
 
     def updated(self):
-        new = md5.new(open(self.file).read()).hexdigest()
-        old = open(self.md5).read()
+        new = hashlib.md5(open(self.file, 'rb').read()).hexdigest()
+        old = open(self.md5, 'r').read()
         if new == old:
             return False
         open(self.md5, 'w').write(new)
@@ -228,7 +244,7 @@ class Feed(object):
                 entry.seen = True
                 count += 1
             log.info('%d new items in %s' % (count, self.name))
-        except Exception, e:
+        except Exception as e:
             log.exception(e)
 
     def send(self, email):

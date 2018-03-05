@@ -14,8 +14,8 @@ setup(
     version='2.1.dev0',
 
     install_requires=[
-        'feedparser==4.1',
-        'html2text<=3.0',
+        'feedparser',
+        'html2text',
         'requests',
         'setuptools',
     ],
@@ -36,6 +36,18 @@ setup(
         'README.txt',
         'CHANGES.txt',
     )),
+
+    classifiers="""\
+License :: OSI Approved :: Zope Public License
+Programming Language :: Python
+Programming Language :: Python :: 2
+Programming Language :: Python :: 2.7
+Programming Language :: Python :: 3
+Programming Language :: Python :: 3.4
+Programming Language :: Python :: 3.5
+Programming Language :: Python :: 3.6
+Programming Language :: Python :: Implementation :: CPython
+"""[:-1].split('\n'),
 
     namespace_packages=['ws'],
     packages=find_packages('src'),
