@@ -1,7 +1,7 @@
 CHANGES
 =======
 
-2.1 (unreleased)
+2.1 (2018-03-06)
 ----------------
 
 - Switch from urllib2 to requests.
