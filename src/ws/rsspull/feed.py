@@ -6,6 +6,7 @@ import logging
 import os
 import os.path
 import requests
+import smtplib
 import sys
 import ws.rsspull.maildir
 import ws.rsspull.util
@@ -145,7 +146,8 @@ class Entry(object):
 class Feed(object):
 
     workdir = None
-    maildir = None
+    target = None
+    target_type = None
 
     recipient = 'rsspull <rsspull@localhost>'
 
@@ -248,8 +250,17 @@ class Feed(object):
             log.exception(e)
 
     def send(self, email):
-        maildir = ws.rsspull.maildir.Maildir(
-            os.path.join(self.maildir, self.name), create=True)
-        writer = maildir.newMessage()
-        writer.write(email.as_string(unixfrom=True))
-        writer.commit()
+        if self.target_type == 'maildir':
+            maildir = ws.rsspull.maildir.Maildir(
+                os.path.join(self.target, self.name), create=True)
+            writer = maildir.newMessage()
+            writer.write(email.as_string(unixfrom=True))
+            writer.commit()
+        elif self.target_type == 'smtp':
+            smtp = smtplib.SMTP('localhost')
+            smtp.sendmail(self.target, [self.target], email.as_string())
+            smtp.quit()
+        else:
+            raise ValueError(
+                'target_type must be one either maildir or smtp, got %s' %
+                self.target_type)

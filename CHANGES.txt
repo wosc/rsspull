@@ -4,6 +4,8 @@ CHANGES
 2.2 (unreleased)
 ----------------
 
+- Support sending messages via SMTP as an alternative to writing into Maildir.
+
 - Add commandline option to set config directory.
 
 

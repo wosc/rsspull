@@ -24,9 +24,17 @@ You can install it from PyPI like this::
 You need to create a configuration file in ``~/.rsspull/config``, like::
 
     [global]
-    maildir = ~/Maildir/rss
+    target = ~/Maildir/rss
+    target_type = maildir
     logfile = ~/.rsspull/log
     workers = 1
+
+For low-volume applications you can also send the emails via SMTP (localhost)
+instead::
+
+    [global]
+    target = test@example.com
+    target_type = smtp
 
 List the feeds you want to pull in an OPML file at ``~/.rsspull/feeds.opml``::
 
