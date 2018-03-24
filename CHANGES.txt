@@ -1,7 +1,7 @@
 CHANGES
 =======
 
-2.2 (unreleased)
+2.2 (2018-03-24)
 ----------------
 
 - Support sending messages via SMTP as an alternative to writing into Maildir.
