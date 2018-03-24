@@ -67,6 +67,9 @@ Then simply run::
 
 to download the feeds.
 
+You can pass ``rsspull --confdir /path/to/config`` to use a different location
+than ``~/.rsspull``.
+
 
 Features
 ========

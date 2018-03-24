@@ -1,4 +1,5 @@
 from ws.rsspull.feed import Feed
+import argparse
 import logging
 import os
 import os.path
@@ -68,4 +69,8 @@ def rsspull_serial(feeds):
 
 
 def main():
-    rsspull('~/.rsspull')
+    parser = argparse.ArgumentParser(description='Pull RSS feeds into maildir')
+    parser.add_argument('-c', '--confdir', default='~/.rsspull',
+                        help='Configuration directory')
+    options = parser.parse_args()
+    rsspull(options.confdir)
