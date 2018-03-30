@@ -7,21 +7,23 @@ try:
     from htmlentitydefs import entitydefs
     text_type = unicode
     bytes_type = str
+    unicode_chr = unichr
 except ImportError:
     from email.header import make_header
     from html.entities import entitydefs
     text_type = str
     bytes_type = bytes
+    unicode_chr = chr
 
 
 def intEnt(m):
     m = int(m.groups(1)[0])
-    return unichr(m)
+    return unicode_chr(m)
 
 
 def xEnt(m):
     m = int(m.groups(1)[0], 16)
-    return unichr(m)
+    return unicode_chr(m)
 
 
 def nameEnt(m):
