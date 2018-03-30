@@ -1,8 +1,8 @@
 CHANGES
 =======
 
-2.3 (unreleased)
-----------------
+2.2.1 (2018-03-30)
+------------------
 
 - Fix Python-3 unicode issues.
 
