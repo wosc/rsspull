@@ -2,6 +2,9 @@
 rsspull
 =======
 
+.. image:: https://travis-ci.org/wosc/rsspull.png
+   :target: https://travis-ci.org/wosc/rsspull
+
 rsspull downloads and parses RSS and Atom feeds, converts posts into email
 messages, and stores them in Maildirs. This way you can read your feeds using
 an email client (I use `claws`_, so I can access mailing lists, newsgroups and
