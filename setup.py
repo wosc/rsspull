@@ -28,7 +28,7 @@ setup(
 
     description=__doc__.strip(),
     long_description='\n\n'.join(open(name).read() for name in (
-        'README.txt',
+        'README.rst',
         'CHANGES.txt',
     )),
 
