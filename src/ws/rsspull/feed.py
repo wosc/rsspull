@@ -17,7 +17,7 @@ try:
     from email.MIMENonMultipart import MIMENonMultipart
     from email.MIMEText import MIMEText
 
-    from urlparse import urljoin
+    from urlparse import urljoin, urlparse
 
     any_string_type = basestring
 except ImportError:
@@ -25,7 +25,7 @@ except ImportError:
     from email.mime.nonmultipart import MIMENonMultipart
     from email.mime.text import MIMEText
 
-    from urllib.parse import urljoin
+    from urllib.parse import urljoin, urlparse
 
     any_string_type = (str, bytes)
 
@@ -256,8 +256,9 @@ class Feed(object):
             writer = maildir.newMessage()
             writer.write(email.as_string(unixfrom=True))
             writer.commit()
-        elif self.target_type == 'smtp':
-            smtp = smtplib.SMTP('localhost')
+        elif self.target_type.startswith('smtp'):
+            parts = urlparse(self.target_type)
+            smtp = smtplib.SMTP(parts.netloc)
             smtp.sendmail(self.target, [self.target], email.as_string())
             smtp.quit()
         else:

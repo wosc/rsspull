@@ -32,12 +32,11 @@ You need to create a configuration file in ``~/.rsspull/config``, like::
     logfile = ~/.rsspull/log
     workers = 1
 
-For low-volume applications you can also send the emails via SMTP (localhost)
-instead::
+For low-volume applications you can also send the emails via SMTP instead::
 
     [global]
     target = test@example.com
-    target_type = smtp
+    target_type = smtp://my-smtp-server.example.com
 
 List the feeds you want to pull in an OPML file at ``~/.rsspull/feeds.opml``::
 
