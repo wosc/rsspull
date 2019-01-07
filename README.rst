@@ -12,14 +12,14 @@ feeds all in one application). The heavy lifting is performed by the awesome
 `feedparser`_ library.
 
 .. _`claws`: http://claws-mail.org/
-.. _`feedparser`: https://pypi.python.org/pypi/feedparser
+.. _`feedparser`: https://pypi.org/project/feedparser
 
 
 
 Installation
 ============
 
-rsspull requires at least Python 2.6 (and won't work under Python 3 yet).
+rsspull requires at least Python 2.7 or Python 3.3.
 You can install it from PyPI like this::
 
     $ pip install ws.rsspull
