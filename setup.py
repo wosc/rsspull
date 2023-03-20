@@ -6,7 +6,7 @@ import glob
 
 setup(
     name='ws.rsspull',
-    version='2.3.1.dev0',
+    version='2.3.1',
 
     install_requires=[
         'feedparser',
