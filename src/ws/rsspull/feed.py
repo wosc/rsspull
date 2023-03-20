@@ -173,7 +173,7 @@ class Feed(object):
         if not os.path.exists(Feed.workdir):
             os.makedirs(Feed.workdir)
 
-        self.name = name.replace(' ', '_')
+        self.name = name.replace(' ', '_').replace('/', '_')
         self.url = url
         self.feed = None
         self.auth = None
