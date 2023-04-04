@@ -1,3 +1,5 @@
+from configparser import ConfigParser
+from queue import Queue, Empty
 from ws.rsspull.feed import Feed
 import argparse
 import logging
@@ -5,13 +7,6 @@ import os
 import os.path
 import threading
 import ws.rsspull.util
-
-try:
-    from ConfigParser import ConfigParser
-    from Queue import Queue, Empty
-except ImportError:
-    from configparser import ConfigParser
-    from queue import Queue, Empty
 
 
 class Worker(threading.Thread):

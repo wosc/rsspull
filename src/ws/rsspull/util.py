@@ -1,36 +1,25 @@
+from email.header import make_header
+from html.entities import entitydefs
 from html2text import HTML2Text
 import logging
 import re
 
-try:
-    from email.Header import make_header
-    from htmlentitydefs import entitydefs
-    text_type = unicode
-    bytes_type = str
-    unicode_chr = unichr
-except ImportError:
-    from email.header import make_header
-    from html.entities import entitydefs
-    text_type = str
-    bytes_type = bytes
-    unicode_chr = chr
-
 
 def intEnt(m):
     m = int(m.groups(1)[0])
-    return unicode_chr(m)
+    return chr(m)
 
 
 def xEnt(m):
     m = int(m.groups(1)[0], 16)
-    return unicode_chr(m)
+    return chr(m)
 
 
 def nameEnt(m):
     m = m.groups(1)[0]
     if m in entitydefs.keys():
         val = entitydefs[m]
-        if not isinstance(val, text_type):
+        if not isinstance(val, str):
             val = val.decode('latin1')
         return val
     else:
@@ -62,7 +51,7 @@ def html2text(text):
 def header(text):
     if not text:
         text = ''
-    if not isinstance(text, text_type):
+    if not isinstance(text, str):
         text = text.decode('latin1')
     try:
         text = html2text(text).strip()

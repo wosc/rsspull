@@ -1,15 +1,10 @@
+from email.header import decode_header
 from ws.rsspull.feed import Feed, Entry
 import os
 import pkg_resources
 import shutil
 import tempfile
 import unittest
-
-
-try:
-    from email.Header import decode_header
-except ImportError:
-    from email.header import decode_header
 
 
 class FeedTest(unittest.TestCase):

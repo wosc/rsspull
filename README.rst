@@ -19,7 +19,7 @@ feeds all in one application). The heavy lifting is performed by the awesome
 Installation
 ============
 
-rsspull requires at least Python 2.7 or Python 3.3.
+rsspull requires at least Python 3.3.
 You can install it from PyPI like this::
 
     $ pip install ws.rsspull

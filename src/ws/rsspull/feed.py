@@ -1,3 +1,7 @@
+from email.mime.multipart import MIMEMultipart
+from email.mime.nonmultipart import MIMENonMultipart
+from email.mime.text import MIMEText
+from urllib.parse import urljoin, urlparse
 import datetime
 import email.utils
 import feedparser
@@ -7,27 +11,9 @@ import os
 import os.path
 import requests
 import smtplib
-import sys
 import ws.rsspull.maildir
 import ws.rsspull.util
 import xml.dom.minidom
-
-try:
-    from email.MIMEMultipart import MIMEMultipart
-    from email.MIMENonMultipart import MIMENonMultipart
-    from email.MIMEText import MIMEText
-
-    from urlparse import urljoin, urlparse
-
-    any_string_type = basestring
-except ImportError:
-    from email.mime.multipart import MIMEMultipart
-    from email.mime.nonmultipart import MIMENonMultipart
-    from email.mime.text import MIMEText
-
-    from urllib.parse import urljoin, urlparse
-
-    any_string_type = (str, bytes)
 
 
 USER_AGENT = ('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.2)'
@@ -102,8 +88,6 @@ class Entry(object):
         text_part = MIMEText(body.encode('utf-8'), 'plain', 'utf-8')
         html_part = MIMENonMultipart('text', 'html', charset='utf-8')
         html_body = self.body
-        if sys.version_info < (3,):
-            html_body = html_body.encode('utf-8')
         html_part.set_payload(html_body)
 
         message.attach(text_part)
@@ -120,7 +104,7 @@ class Entry(object):
                 pass
 
     def _value(self, x):
-        if isinstance(x, any_string_type):
+        if isinstance(x, (str, bytes)):
             return x
         elif isinstance(x, list):
             try:
