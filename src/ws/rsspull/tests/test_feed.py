@@ -25,15 +25,15 @@ class FeedTest(unittest.TestCase):
             self.tmpdir)
         entries = feed.parse()
 
-        self.assertEquals('Tim Bray', feed.author)
-        self.assertEquals(20, len(entries))
-        self.assertEquals('Moose Camp', entries[0].title)
+        self.assertEqual('Tim Bray', feed.author)
+        self.assertEqual(20, len(entries))
+        self.assertEqual('Moose Camp', entries[0].title)
 
         msg = entries[0].to_mail()
         subject = decode_header(msg['Subject'])[0]
-        self.assertEquals(
+        self.assertEqual(
             'Moose Camp', subject[0].decode(subject[1] or 'ascii'))
-        self.assertEquals('Tim Bray <rsspull@localhost>', msg['From'])
+        self.assertEqual('Tim Bray <rsspull@localhost>', msg['From'])
 
     def test_special_cases(self):
         feed = Feed('samruby', 'http://www.intertwingly.net/blog/index.atom')
@@ -42,20 +42,20 @@ class FeedTest(unittest.TestCase):
             self.tmpdir)
         entries = feed.parse()
 
-        self.assertEquals(0, entries[0].resolved_link.find(
+        self.assertEqual(0, entries[0].resolved_link.find(
             'http://www.intertwingly.net/blog'))
 
     def test_parse_opml(self):
         feeds = Feed.parseOPML(pkg_resources.resource_filename(
             __name__, 'fixture/feeds.opml'))
-        self.assertEquals(3, len(feeds))
-        self.assertEquals('ongoing', feeds[0].name)
-        self.assertEquals(
+        self.assertEqual(3, len(feeds))
+        self.assertEqual('ongoing', feeds[0].name)
+        self.assertEqual(
             'http://www.tbray.org/ongoing/ongoing.atom', feeds[0].url)
 
-        self.assertEquals('Trac_Example', feeds[2].name)
-        self.assertEquals(('user', 'password'), feeds[2].auth)
-        self.assert_(os.path.exists(os.path.join(
+        self.assertEqual('Trac_Example', feeds[2].name)
+        self.assertEqual(('user', 'password'), feeds[2].auth)
+        self.assertTrue(os.path.exists(os.path.join(
             self.tmpdir, 'Trac_Example.cache')))
 
     def test_seen(self):
@@ -70,9 +70,9 @@ class FeedTest(unittest.TestCase):
             return feed, entry
 
         feed, entry = create()
-        self.assert_(not entry.seen)
+        self.assertFalse(entry.seen)
         entry.seen = True
-        self.assert_(entry.seen)
+        self.assertTrue(entry.seen)
 
         feed, entry = create()
-        self.assert_(entry.seen)
+        self.assertTrue(entry.seen)

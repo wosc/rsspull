@@ -22,13 +22,13 @@ class FeedTest(unittest.TestCase):
         xml = os.path.join(self.tmpdir, 'ongoing.xml')
 
         feed.download()
-        self.assert_(os.path.exists(xml))
-        self.assert_(feed.updated())
+        self.assertTrue(os.path.exists(xml))
+        self.assertTrue(feed.updated())
         before = os.stat(xml).st_mtime
         feed.download()
         after = os.stat(xml).st_mtime
-        self.assert_(not feed.updated())
-        self.assertEquals(before, after)
+        self.assertFalse(feed.updated())
+        self.assertEqual(before, after)
 
     def test_not_updated_even_if_no_etag(self):
         # heise doesn't do ETAG
@@ -36,9 +36,9 @@ class FeedTest(unittest.TestCase):
             'heisec', 'https://www.heise.de/security/rss/news-atom.xml')
 
         feed.download()
-        self.assert_(feed.updated())
+        self.assertTrue(feed.updated())
         feed.download()
-        self.assert_(not feed.updated())
+        self.assertFalse(feed.updated())
 
     def test_download_error(self):
         feed = Feed('ongoing', 'urks://')
