@@ -31,6 +31,7 @@ def rsspull(confdir):
     Feed.workdir = os.path.join(confdir, 'cache')
     Feed.target = os.path.expanduser(config.get('global', 'target'))
     Feed.target_type = os.path.expanduser(config.get('global', 'target_type'))
+    Feed.user_agent = config.get('global', 'user_agent')
 
     ws.rsspull.util.setupLogging(os.path.expanduser(
         config.get('global', 'logfile')))

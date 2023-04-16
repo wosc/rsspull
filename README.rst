@@ -31,6 +31,7 @@ You need to create a configuration file in ``~/.rsspull/config``, like::
     target_type = maildir
     logfile = ~/.rsspull/log
     workers = 1
+    user_agent = optional custom header
 
 For low-volume applications you can also send the emails via SMTP instead::
 

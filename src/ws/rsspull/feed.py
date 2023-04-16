@@ -16,8 +16,6 @@ import ws.rsspull.util
 import xml.dom.minidom
 
 
-USER_AGENT = ('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.2)'
-              ' Gecko/20070220 Firefox/2.0.0.2')
 log = logging.getLogger(__name__)
 
 
@@ -132,6 +130,7 @@ class Feed(object):
     workdir = None
     target = None
     target_type = None
+    user_agent = None
 
     recipient = 'rsspull <rsspull@localhost>'
 
@@ -175,9 +174,9 @@ class Feed(object):
         return getattr(self.feed, name)
 
     def download(self):
-        headers = {
-            'User-Agent': USER_AGENT
-        }
+        headers = {}
+        if self.user_agent:
+            headers['User-Agent'] = self.user_agent
         if os.path.exists(self.file):
             headers['If-Modified-Since'] = email.utils.formatdate(
                 os.stat(self.file).st_mtime)
